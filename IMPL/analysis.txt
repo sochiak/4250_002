@@ -1,2 +1,0 @@
-Code works with positive and negative whole numbers.
-Work still needs to be done for floating point numbers.
