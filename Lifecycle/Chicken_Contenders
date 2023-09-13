@@ -61,16 +61,27 @@ Notes:
 * third phase to tracability matrix as a postcondition
 * fourth stage of the SE Lifecycle
 
-Release:
-Def-
-Notes-
+Release: (Bryson)
+Def- Pushing your software to its intended target to be used in a production environment
+Notes   - Product needs to match all requirements
+	- 5th stage in SE life cycle
+	- Needs to be "stable"
+	- Discuss marketing strategies and sales projections if not made for a specific client
+	- Should be well tested prior to release
+	- Deliverables include release notes and scripts
 
 Support:
 Def-
 Notes-
 
-Update:
-Def-
-Notes-
+Update: (Bryson)
+Def - The process of taking an already finished product and adding features or improving the product
+Notes -
+    - Identifying quality of life improvements
+    - making QoL improvements
+    - taking a pre-released product and building from there while still following requirements
+    - Periodical updates to maintain security and useability
+    - Strong design beforehand makes this stage easier
+    - Final phase of Software Life Cycle
 
 
