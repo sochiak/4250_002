@@ -8,12 +8,32 @@ Definition:
 CMMI-A way to streamline a business to produce a higher quality development environment.
 
 Trent-Requirements:
-Def-
-Notes-
+Def- Process of figuring out what/why needs to be done. 
+Notes- 
+- First stage of the SE Lifecycle
+- Comes before the design stage
+- The goals and tasks that the software needs to perform. 
+- May not have all requirements at the start. 
+- You might have to adjust or remove requirements to reach deadlines or goals.
+- Taking notes and askind leading questions
+- setting up meetings
+- eliminiating ideas that do the same thing and categorizing them as functional/non-functional and mandatory/optional
+- are gathered by clients, users, stakeholders, and regulatory bodies.
+- instructions / things needed for the project
+- can be high or low level requirements
+- must be agreed upon between client and developer
 
 Trent-Design:
-Def-
+Def- Figuring out how to implement the requirements gathered
 Notes-
+- Second stage of the SE Lifecycle
+- process of planning out the requirements
+- creates the flow of the project
+- creates the structure of the project
+- knowing what framework/utilities you want to use ahead of time helps
+- design can change through development
+- using requirements to form a plan of action
+- Examples: flow charts, UML diagrams, etc. 
 
 Tyler-Implementation:
 Def- Putting the design/architecture to action, making sure you can trace it back to the requirements.
