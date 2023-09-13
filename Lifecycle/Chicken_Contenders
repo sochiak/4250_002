@@ -7,7 +7,7 @@ Bryson Brandon
 Definition:
 CMMI-A way to streamline a business to produce a higher quality development environment.
 
-Trent-Requirements:
+(Trent)Requirements:
 Def- Process of figuring out what/why needs to be done. 
 Notes- 
 - First stage of the SE Lifecycle
@@ -23,7 +23,7 @@ Notes-
 - can be high or low level requirements
 - must be agreed upon between client and developer
 
-Trent-Design:
+(Trent)Design:
 Def- Figuring out how to implement the requirements gathered
 Notes-
 - Second stage of the SE Lifecycle
@@ -35,7 +35,7 @@ Notes-
 - using requirements to form a plan of action
 - Examples: flow charts, UML diagrams, etc. 
 
-Tyler-Implementation:
+(Tyler)Implementation:
 Def- Putting the design/architecture to action, making sure you can trace it back to the requirements.
 Notes:
 * 3rd stage of SE lifecycle
@@ -46,7 +46,7 @@ Notes:
 * Detailed design is a precondition for implementation
 * working software is a postcondition
 
-Tyler-Test:
+(Tyler)Test:
 Def- Creating examples to perform on software to ensure all requirements are met
 Notes:
 * This is the stage you realised you messed up
@@ -70,9 +70,17 @@ Notes   - Product needs to match all requirements
 	- Should be well tested prior to release
 	- Deliverables include release notes and scripts
 
-Support:
-Def-
-Notes-
+(Tyson)Support:
+Def- A stage in the SE lifecycle in which developers address any bugs post launch and
+adjusting features based on user feedback.
+Notes- 
+* Can lead back to the implementation and test phases based on results.
+* Defines bugs and then go through the process of fixing them.
+* Sixth stage of the SE lifecycle
+* Trains users how to use the product
+* Customizes software to meet user needs
+* Includes release notes or a ReadMe as deliverables
+
 
 Update: (Bryson)
 Def - The process of taking an already finished product and adding features or improving the product
