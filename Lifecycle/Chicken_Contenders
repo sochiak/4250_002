@@ -15,13 +15,31 @@ Trent-Design:
 Def-
 Notes-
 
-Implementation:
-Def-
-Notes-
+Tyler-Implementation:
+Def- Putting the design/architecture to action, making sure you can trace it back to the requirements.
+Notes:
+* 3rd stage of SE lifecycle
+* The effects of implementation can change the design
+* This is the actual code and development
+* Documenting the code and tracability
+* Ensuring all requirements are met
+* Detailed design is a precondition for implementation
+* working software is a postcondition
 
-Test:
-Def-
-Notes-
+Tyler-Test:
+Def- Creating examples to perform on software to ensure all requirements are met
+Notes:
+* This is the stage you realised you messed up
+* The more cases the better
+* This stage occurs multiple times
+* This stage ensures all requirments are met
+* unit testing-> happy paths and edge cases
+* shows final changes needed to the project
+* finds errors in the in the implementation
+* you should create documented test cases
+* potentially lead back to implementation
+* third phase to tracability matrix as a postcondition
+* fourth stage of the SE Lifecycle
 
 Release:
 Def-
