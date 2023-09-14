@@ -1,0 +1,95 @@
+Team Members:
+Trent Williams
+Tyler Burleson
+Tyson Bailey
+Bryson Brandon
+
+Definition:
+CMMI-A way to streamline a business to produce a higher quality development environment.
+
+(Trent)Requirements:
+Def- Process of figuring out what/why needs to be done. 
+Notes- 
+- First stage of the SE Lifecycle
+- Comes before the design stage
+- The goals and tasks that the software needs to perform. 
+- May not have all requirements at the start. 
+- You might have to adjust or remove requirements to reach deadlines or goals.
+- Taking notes and askind leading questions
+- setting up meetings
+- eliminiating ideas that do the same thing and categorizing them as functional/non-functional and mandatory/optional
+- are gathered by clients, users, stakeholders, and regulatory bodies.
+- instructions / things needed for the project
+- can be high or low level requirements
+- must be agreed upon between client and developer
+
+(Trent)Design:
+Def- Figuring out how to implement the requirements gathered
+Notes-
+- Second stage of the SE Lifecycle
+- process of planning out the requirements
+- creates the flow of the project
+- creates the structure of the project
+- knowing what framework/utilities you want to use ahead of time helps
+- design can change through development
+- using requirements to form a plan of action
+- Examples: flow charts, UML diagrams, etc. 
+
+(Tyler)Implementation:
+Def- Putting the design/architecture to action, making sure you can trace it back to the requirements.
+Notes:
+* 3rd stage of SE lifecycle
+* The effects of implementation can change the design
+* This is the actual code and development
+* Documenting the code and tracability
+* Ensuring all requirements are met
+* Detailed design is a precondition for implementation
+* working software is a postcondition
+
+(Tyler)Test:
+Def- Creating examples to perform on software to ensure all requirements are met
+Notes:
+* This is the stage you realised you messed up
+* The more cases the better
+* This stage occurs multiple times
+* This stage ensures all requirments are met
+* unit testing-> happy paths and edge cases
+* shows final changes needed to the project
+* finds errors in the in the implementation
+* you should create documented test cases
+* potentially lead back to implementation
+* third phase to tracability matrix as a postcondition
+* fourth stage of the SE Lifecycle
+
+Release: (Bryson)
+Def- Pushing your software to its intended target to be used in a production environment
+Notes   - Product needs to match all requirements
+	- 5th stage in SE life cycle
+	- Needs to be "stable"
+	- Discuss marketing strategies and sales projections if not made for a specific client
+	- Should be well tested prior to release
+	- Deliverables include release notes and scripts
+
+(Tyson)Support:
+Def- A stage in the SE lifecycle in which developers address any bugs post launch and
+adjusting features based on user feedback.
+Notes- 
+* Can lead back to the implementation and test phases based on results.
+* Defines bugs and then go through the process of fixing them.
+* Sixth stage of the SE lifecycle
+* Trains users how to use the product
+* Customizes software to meet user needs
+* Includes release notes or a ReadMe as deliverables
+
+
+Update: (Bryson)
+Def - The process of taking an already finished product and adding features or improving the product
+Notes -
+    - Identifying quality of life improvements
+    - making QoL improvements
+    - taking a pre-released product and building from there while still following requirements
+    - Periodical updates to maintain security and useability
+    - Strong design beforehand makes this stage easier
+    - Final phase of Software Life Cycle
+
+
