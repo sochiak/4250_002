@@ -6,4 +6,6 @@ Jean
 
 CMMI is Capability Maturity Model Integration, describing how an organization develops a model, based on the ability of the organization. It is a set of best practices used in organizations to improve processes and enhance quality.
 
+Requirements: constraints and expectations for a project, unrealistic ideas get eliminated, customer relations, 1st phase of the lifecycle, determines what you will design, textual descriptions, separate needs between functional and non-functional. 
+
 Release: Often done in multiple phases, depending on how finished the project is, reliease not only deals with distribution but also usability; release notes/README file, advertising, master repository "finished" and built, distributeto end user.
