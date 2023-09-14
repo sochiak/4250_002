@@ -7,3 +7,70 @@ CMMI (Capability Maturity Model Integration) is basically the way an organizatio
 The Tuckman model is broken into four steps: forming, storming, norming, and performing.
 
 CMMI goes through these stages: initial, managed, defined, quantitatively managed, and optimized.
+
+Results of Brainstorming Phase on Software Lifecycle:
+
+Requirements: Identify the problem then define it
+  •	Broken into mandatory/optional and functional/non-functional
+  •	Many people involved – client, stockholder, developer…
+  •	Discussing with the client what they need
+  •	Prioritize requirements based on importance
+  •	Sending the proposed requirements to the client
+  •	Some requirements might have constraints on the solution
+  •	How we can deem the product successfully created
+  •	Precondition: A problem
+  •	Postcondition: SRS (Software Requirements Specification)
+  •	What needs to be done, not how
+Design: figuring out how to implement the solution
+  •	Is a traceability matric, maps key elements from the design back to the requirements document
+  •	How the solution is implemented
+  •	Multiple levels of design
+  •	Documenting how a solution will be implemented
+  •	Can include several systems that work together
+  •	Often done breadth-first and iterated until an acceptable level of detail is reached
+  •	Documentation should be within the implementation. Ex: self-documented code
+  •	Precondition: SRS
+  •	Postcondition: A detailed design
+Implementation: code the product – the actual creation
+  •	The most fun part
+  •	Documenting the code
+  •	Can consist of code, scripts, or hardware solutions
+  •	Is traceability matrix back to the design phase
+  •	Follows the design
+  •	Additional members begin working on the project
+  •	Precondition: a detailed design
+  •	Postcondition: working software
+Testing: checking that a product meets the requirements using robust test cases
+  •	Making sure the product meets the requirements using robust test cases
+  •	Identify edge cases and test them
+  •	Find bugs in the software if there are any
+  •	Many development organizations have a designated QA team
+  •	Document testing with test plans
+  •	Traceability matrix back to requirements
+  •	Ensure that code meets requirements/behaves as expected
+  •	Vital phase of the development
+  •	Precondition: working software
+  •	Postcondition: requirements traceability matrix’s, all tests produce desired results.
+Release: putting the tested product into a production environment
+  •	Preparing to rollback in case something burns down
+  •	Multiple release stages. i.e pre-alpha, beta, etc.
+  •	Release scripts handle various tasks such as deploying new versions, data migration
+  •	There should be release notes that describe what it is, what is does, features, etc.
+  •	Putting working software into a production environment
+  •	Waterfall: often one release. Iterative model: periodic release. Agile/scrum: gib release with highly involved customers & frequent upgrades
+Maintenance: After release, fix any problems or make improvements.
+  •	Requires testing for the small changes
+  •	Making sure the software does not die
+  •	Often the most expensive phase
+  •	Bug fixes made to the production release
+  •	Generally released as patches
+  •	Accompanied by original release docs. Any changes made are highlighted.
+  •	Distinct from upgrades and updates.
+Upgrades/Updates – repeat of the entire lifecycle from the requirements to support
+  •	Not common with waterfall methodology
+  •	Repeat the entire lifecycle
+  •	Includes version increments
+  •	Enhancements to the base. Common with OS, ERP, games, etc.
+  •	Introduces new features
+  •	Part of software with any real future
+  •	Can be labor intensive
