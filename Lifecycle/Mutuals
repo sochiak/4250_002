@@ -6,7 +6,42 @@ CMMI (Capability Maturity Model Integration) is basically the way an organizatio
 
 The Tuckman model is broken into four steps: forming, storming, norming, and performing.
 
-CMMI goes through these stages: initial, managed, defined, quantitatively managed, and optimized.
+CMMI goes through these stages: initial, managed, defined, quantitatively managed, and optimized:
+
+- Initial: At this stage, processes are out of control and reactive in nature. 
+Businesses operating here contend with an uncertain environment, leading to heightened 
+risks and operational inefficiencies.
+- Managed: Processes are characterized by a project-based approach and tend to be reactive in nature.
+- Defined: Processes are thoroughly characterized and well-understood. The organization 
+demonstrates a proactive stance rather than being primarily reactive. Additionally, 
+there are standardized practices adopted across the organization for guidance.
+- Quantitatively Managed: Processes are meticulously measured and tightly controlled. 
+The organization relies on quantitative data to establish consistent processes that 
+align with its strategic objectives.
+- Optimized: Processes have achieved stability and flexibility. The organizational 
+emphasis is squarely on continuous improvement and the ability to adapt to evolving circumstances.
+
+Phase on Software Lifecycle:
+1. Requirements Gathering and Analysis: In this initial phase, the project team works closely 
+with stakeholders and clients to gather and analyze requirements. These requirements specify what 
+the software should do and define its functionalities, constraints, and objectives.
+2. Design: During this phase, the high-level system architecture and design are created. 
+This includes defining the overall structure of the software, such as modules, components, and data flow.
+In the detailed design the high-level design is translated into more detailed specifications. Design 
+decisions related to databases, user interfaces, algorithms, and data structures are made.
+3. Implementation (Coding): The actual coding or implementation of the software occurs in this phase. 
+Developers write code based on the detailed design, creating the functional components and features 
+of the software.
+4. Testing: Software testing is a critical phase where the developed software is 
+rigorously tested to ensure it meets the specified requirements. This includes functional 
+testing, integration testing, performance testing, and more.
+5. Release: Once the software has passed testing and quality assurance, it is deployed 
+to the production environment or made available to end-users. Deployment strategies can vary, 
+including gradual rollouts or full releases.
+6. Maintenance: After deployment, the software enters a maintenance phase. 
+This involves addressing and fixing any issues (bugs) that arise and providing ongoing support to users.
+7. Upgrades/Updates: Slightly different from maintenance, upgrades/updates encompass larger changes
+to the product, including added features. 
 
 Results of Brainstorming Phase on Software Lifecycle:
 
