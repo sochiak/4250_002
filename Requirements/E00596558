@@ -1,14 +1,17 @@
 E00596558
 Arcade Style Driving Game
 
+If player hits obstacle needs collision detection - mandatory
+Speed needs to be monitored - optional
 Scoreboard - mandatory- non functional
 Speed needs to be monitored - optional - non-functional
-If completed must have a win screen - madatory
+If completed must have a win screen - mandatory
 Steering needs to feel responsive - mandatory
+Pause feature - optional
 Pause feature - optional - functional
 Brakes feature - mandatory
-If player hits obstacle needs collosion detection - mandatory - functional
-If player hits too many obstacles game over screen - mandatory - non-funtional
+If player hits obstacle needs collision detection - mandatory - functional
+If player hits too many obstacles game over screen - mandatory - non-functional
 Player can retry course- mandatory - functional
 Multiple courses - mandatory - functional
 Difficulty setting - mandatory - functional
