@@ -1,0 +1,14 @@
+Ball Game Requirements:
+•	The ball must have a physics/collision box to bounce off walls.
+•	The walls must have collision boxes the height/ length of the screen.
+•	The game must allow the user to draw shapes in the game.
+•	The obstacles the user draws that are more than 3 pixels must gain collision boxes around the obstacle.
+•	The ball must bounce away from collision boxes along the edges of the screen and the user obstacles.
+
+Car Game Requirements:
+•	Take user input to control a car around the screen.
+•	Give the car a collision box.
+•	Generate obstacles with collision boxes for the user to avoid.
+•	When the car collides with the obstacle, “Crash the car”.
+
+
