@@ -1,0 +1,10 @@
+First project requires:
+Image for the ball.
+Functionality to create obstacles greater than 3 pixels with the mouse.
+A way to start and close the game (UI for starting menu and a UI for in-game menu).
+
+Second project requires: 
+Image(s) for the car.
+Image(s) for the obstacles.
+A main menu UI, a way to start the game in the UI, and a menu to return to the main menu.
+A game over image that appears if the player crashes the car, along with a menu to try again or return to main menu.
