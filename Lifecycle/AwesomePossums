@@ -8,6 +8,10 @@ CMMI is Capability Maturity Model Integration, describing how an organization de
 
 Requirements: constraints and expectations for a project, unrealistic ideas get eliminated, customer relations, 1st phase of the lifecycle, determines what you will design, textual descriptions, separate needs between functional and non-functional. 
 
-Release: Often done in multiple phases, depending on how finished the project is, reliease not only deals with distribution but also usability; release notes/README file, advertising, master repository "finished" and built, distributeto end user.
+Design: the process of finding a solution to the problem, risk assessment, iteration of designs, code scaffolding, architectural design, eliminating what won't be used, textual and graphical documentation, delegating responsibilities, research products to use in implementation, Design Method, narrow focus
+
+Release: Often done in multiple phases, depending on how finished the project is, reliease not only deals with distribution but also usability; release notes/README file, advertising, master repository "finished" and built, distribute to end user.
 
 Test: Verify that the implementation meets the requirements. Involves quality assurance, error handling, and user testing. creating test documents detailing cases.
+
+Support/Maintenance: occurs once the product is available and describes the process of patching the product, bug fixing, customer support, resource support, release/patch notes, minor changes, patches, user feedback, platform for delivering patch notes 
