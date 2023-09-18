@@ -14,5 +14,67 @@ Testable: The program's collision detection mechanism will be thoroughly tested 
 
 Traceable: Each collision detection test case will be linked to this requirement, allowing for easy verification of completeness.
 
+------------------------------------------------------------------------------------------------------------------
+ACCORDING TO CHATGPT USING USER STORIES: 
 
- 
+User Stories for Functional Requirements
+
+1. Ball Bouncing
+
+As a user, I want to see a ball displayed on the screen.
+As a user, I want the ball to move continuously within the screen's boundaries.
+As a user, I want the ball to bounce off in the opposite direction when it reaches any edge of the screen.
+As a user, I want the ball's bouncing angle to match the angle at which it collided with the screen's edge.
+
+2. User Interaction
+
+As a user, I want to be able to draw obstacles on the screen using my mouse.
+As a user, I want the program to ensure that obstacles I draw are larger than 3 pixels in any dimension.
+As a user, I want the ability to draw multiple obstacles on the screen.
+As a user, I want the program to render obstacles as filled shapes, like rectangles.
+
+3. Obstacle Interaction
+
+As a user, I want the ball to bounce off in the opposite direction when it collides with an obstacle I've drawn, as if it hit a wall.
+As a user, I want the program to accurately detect collisions, considering both the shape and position of obstacles.
+As a user, I want to ensure that the ball never passes through or overlaps with any obstacles I've drawn.
+
+4. Clearing Obstacles
+
+As a user, I want the program to provide a way to clear all obstacles from the screen, such as by pressing a key or clicking a button.
+
+
+
+
+User Stories for Non-Functional Requirements
+
+1. Performance
+As a user, I want the program to maintain smooth ball movement and obstacle interaction, ensuring a frame rate of at least 30 frames per second on typical hardware.
+
+2. User Interface
+As a user, I want the user interface to be intuitive and user-friendly, making it easy for me to draw obstacles.
+
+3. Compatibility
+As a user, I want the program to work seamlessly on common operating systems, including Windows, macOS, and Linux.
+
+4. Persistence
+As a user, I understand that there's no requirement for saving or loading the state of the program, and all data can be discarded when the program is closed.
+Constraints
+
+5. Screen Size
+As a user, I expect the program to operate within a predefined screen size, which I can specify as a configuration setting, for example, 800x600 pixels.
+
+6. Minimum Obstacle Size
+As a user, I understand that any obstacles I draw must be larger than 3 pixels in any dimension.
+Assumptions and Dependencies
+
+7. User Input Device
+As a user, I assume that I have access to a mouse or a similar pointing device for drawing obstacles.
+Implementation Timeline
+
+As a user, I expect comprehensive testing to be conducted to ensure that the program meets the specified requirements, including unit testing, integration testing, and user testing.
+
+
+Acceptance Criteria
+
+As a user, I understand that the program will be considered complete and ready for submission when it meets all the functional and non-functional requirements outlined in this document and passes all specified tests. 
