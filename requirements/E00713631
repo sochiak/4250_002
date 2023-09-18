@@ -70,7 +70,7 @@ Assumptions and Dependencies
 
 7. User Input Device
 As a user, I assume that I have access to a mouse or a similar pointing device for drawing obstacles.
-Implementation Timeline
+
 
 As a user, I expect comprehensive testing to be conducted to ensure that the program meets the specified requirements, including unit testing, integration testing, and user testing.
 
