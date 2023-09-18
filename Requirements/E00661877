@@ -1,0 +1,14 @@
+Driving Game Requirements
+•	Each obstacle must have collision
+•	Player must also have collision
+•	Must have a player model
+•	can have different obstacle models
+•	obstacles can have different sizes
+•	path must have barriers
+•	can have different player speeds
+•	can have different sized player models
+•	if player crashes must have a crash scene
+•	must have navigation
+•	there must always be a clear path through obstacles
+•	if user goes out of bounds, the level will reset
+•	can implement a reset button
