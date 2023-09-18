@@ -1,0 +1,14 @@
+Requirement Format for Ball Bouncing Program
+
+1. Formal Requirement
+
+The system must detect and handle collisions between the ball and user-drawn obstacles.
+
+2. User Story
+
+As a user, I want the program to accurately detect collisions between the ball and the obstacles I draw so that I can create interesting interactions on the screen.
+
+
+
+
+ 
