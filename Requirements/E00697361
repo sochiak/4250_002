@@ -1,0 +1,41 @@
+Requirements Exercise Slide 10
+
+Ball Requirements
+- Must recognize screen boundaries
+	- Multiple screen sizes or just one?
+- Must recognize boundaries of user-created objects
+	- Multiple object sizes?
+	- When does user create objects?
+		- Before ball starts bouncing? During?
+	- Are the obstacles a single shape/object, or anything?
+- Must move until hitting a boundary
+- Must "bounce" off that boundary
+	- Define "bounce"
+		- Specific angle? Direction? Speed (increase/decrease/same)?
+- Must continue moving after bouncing
+
+Ball Questions
+- How does the ball start moving/bouncing?
+- How long will it be bouncing? When/does it stop?
+- How fast does the ball move?
+- How big is the ball? 
+- Is color important?
+
+Driving Game Requirements
+- Car must move
+	- On a road or some other type of track?
+	- Across screen (horizontal), or up/down (vertical)?
+	- Turns?
+	- Variable speed or just a single speed?
+- Obstacles must exist on "track"
+	- How big?
+	- How many per segment of track?
+	- Impossible situations allowed?
+- Player must be able to move car around obstacles
+	- Basic side-to-side?
+
+Driving Game Questions
+- How big should the car be?
+- Is the style/color of car important?
+- How long does the game run? Until crash? 
+- Is the track made at the beginning, or does it continue to generate?
