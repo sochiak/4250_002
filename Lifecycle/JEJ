@@ -1,2 +1,56 @@
 Josh Rucevice, Jerry Gallway, Josh Rimell
-Capability Maturity Model Integration is a creation of a buisness model in order for products and services to evolve into a reliable stream of improvements.
+
+  - Capability Maturity Model Integration (CMMI) is a creation of a buisness model in order for products and services to evolve into a reliable stream of improvements.
+
+Software Engineering Lifecycle Phases, Definitions & Descriptions:
+
+1) Requirements: Gathering needs and minimum functions to conceptualize the scope of the project.  (Josh Rimell)
+  - Consulting and gathering information from the Project Lead and customers
+  - Meeting needs
+  - Constraints and limitations
+  - Expertise involved/ specific descriptions
+2) Design: The process of creating a plan or model in order to meet listed requirements.   (Josh Rimell)
+  - How a system will be structured and function/ creating a model/ overall architecture
+  - Detailed technical specifications/ inputs from customers and requirements gathering
+  - Decision making
+  - Team layout & organization
+3) Implementation: The process of engineering the product based on requirements and design.   (Josh Rimell)
+  - Proper integration
+  - Updates as needed
+  - Solidifies theoretical concepts
+  - Documentation
+  - Actual coding
+  - Connecting subsystems/ building features and extentions
+  - Type of software using in-house or not
+  - Hardware/software specifications and limitations
+4) Testing: Rigorous process of using input or data in order to see if product or service meets requirements (Jerry)
+  - Systematically evaluate
+  - Make sure it works
+  - Secure for release
+  - Identifying and fixing defects and issues
+  - Testing improper inputs
+  - Integration testing, user acceptance testing, performance testing, security testing
+  - Documentation of results
+  - Meets requirements
+5) Release: The process after testing where the product or service is sold or in its "go live" phase.   (Jerry)
+  - Installation and deployment
+  - User feedback
+  - Documentation
+  - Support for current system
+  - Potential downtime
+  - Plan for release
+  - Availability and distribution to users/customers
+  - Support on launch
+6) Support/Maintenance: Includes ongoing support, bug fixes, and updates. (Josh Rimell)
+  - Allocates resources
+  - Fixing defects
+  - Bug fixes
+  - Security updates
+  - Prevent issues
+  - Keeping the system functional/ ongoing support
+  - Keeping customer and team informed on updates
+7) Upgrades/Updates: Changes of any size to a system. It includes new features or modifications. (Josh Rimell)
+  - Covers changes of any size that results in new features
+  - More advanced security
+  - Updates are regular
+  - Upgrades can involve migration to new technology

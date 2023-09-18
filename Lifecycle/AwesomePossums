@@ -10,8 +10,12 @@ Requirements: constraints and expectations for a project, unrealistic ideas get 
 
 Design: the process of finding a solution to the problem, risk assessment, iteration of designs, code scaffolding, architectural design, eliminating what won't be used, textual and graphical documentation, delegating responsibilities, research products to use in implementation, Design Method, narrow focus
 
-Release: Often done in multiple phases, depending on how finished the project is, reliease not only deals with distribution but also usability; release notes/README file, advertising, master repository "finished" and built, distribute to end user.
+Implementation: Coding a solution based on requirements. Includes: Make available for multiple operating systems (or just the one in the requirements), performance/testing of code, documentation, code refactoring, create traceability matrix tying solution to requirements, project management, and CODE!
 
 Test: Verify that the implementation meets the requirements. Involves quality assurance, error handling, and user testing. creating test documents detailing cases.
 
+Release: Often done in multiple phases, depending on how finished the project is, reliease not only deals with distribution but also usability; release notes/README file, advertising, master repository "finished" and built, distribute to end user.
+
 Support/Maintenance: occurs once the product is available and describes the process of patching the product, bug fixing, customer support, resource support, release/patch notes, minor changes, patches, user feedback, platform for delivering patch notes 
+
+Updates: Repeat the lifecycle to add new features. Includes: iterate back through lifecycle, continued development, think of new features.
