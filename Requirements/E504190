@@ -1,0 +1,6 @@
+Requirements for Problem 1
+A ball must bounce.
+A ball must hit the edge or an obstacle and change trajectory.
+The user must be able to draw obstacles using a mouse.
+The user must be able to interact with the interface.
+There should be a way to start or stop the game.
