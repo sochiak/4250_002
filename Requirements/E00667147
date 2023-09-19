@@ -1,0 +1,10 @@
+Arcade Style Driving Game
+•	The user MUST be able to drive the car.
+•	The game MUST include the obstacles that the user is trying to avoid.
+•	The user MUST be able to control the car’s speed and braking.
+•	The game MUST include a scoring system that rewards points for missing an obstacle.
+•	The game MUST include collision detection which causes the game to end if the car crashes into an obstacle.
+•	The game SHOULD offer multiple levels with increasing difficulty.
+•	The game SHOULD include a leaderboard.
+•	The game CAN include a way that the player can customize their car.
+•	The game CAN include different camera angles such as first-person, second-person, third person.
