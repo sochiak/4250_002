@@ -1,0 +1,12 @@
+1.) Bouncy Ball
+- Display a Ball
+- Handle Collisions
+- Must bounce when colliding with objects larger than 3 pixels
+- Handle multiple objects/collisions
+
+2.) Car Crash Simulation
+- Display a car
+- Handle collisions
+- Be able to move the car
+- Must crash on collisions
+- Must have obstacles

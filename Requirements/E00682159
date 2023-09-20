@@ -1,0 +1,15 @@
+The ball must be able to bounce off the screen.
+The ball must be able to pass through obstacles less than 3 pixels.
+The ball must bounce off objects bigger that 3 pixels.
+The user must be able to draw objects on the screen.
+The user may be able to pick different sized balls to bounce around
+The user may have a scoring for how many times it has bounced off an drawn object instead of the wall, to have incentive to interact with the game.
+
+
+The user may be able to choose between different cars
+The user may be able to play different levels
+The levels may increase in difficulty
+The game must end if the user hits an obstacles
+The game may provide in game guidance to avoid obstacles.
+The game may have a timer to track lap time
+The user may be able to race against other people’s time
