@@ -1,0 +1,11 @@
+Ryan Cooper, Ethan Webb, Ethan Hensley, Joe Nagy
+
+CMMI Definition - Model that helps develop a simple process into a refined one by focusing on improving one/few aspects at a time. The improvements raise the tier they are at in the model. Higher tiers lead to more major improvements.
+
+Design - Design is the framework of the project based on the requirements given, and gives high level solutions to the subproblems defined. Risk assessment is considered during this phase, ensuring the project
+will be finished in the estimate. The requirements are used to map key elements with a traceability matrix, making it easier to transfer to the implementation phase. 
+
+Implementation - Implementation is turning the design (requirements) into untested code, which usually results in bugs. As the code is being written, it is important that developers document their code to explain it's functionality
+which helps make a smooth transition into the testing phase.
+
+Support/Maintenance - The support phase, also known as the maintenance phase, serves to upkeep the project by including new features, evolving requirements, and optimizing the code for better performance.

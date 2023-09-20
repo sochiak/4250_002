@@ -1,0 +1,14 @@
+Arcade style driving game:
+•	Game objective: Avoid crashing by navigating obstacles.
+•	Control methods: Tilt/accelerometer (mobile), arrow keys/game controller (PC), or touch controls (mobile).
+•	Specify responsive vehicle behavior.
+•	Identify obstacle types and procedural generation rules.
+•	Establish scoring mechanics based on distance and obstacle avoidance.
+•	Create leaderboards to keep track of scores.
+•	Define multiple game levels with increasing difficulty.
+•	Design the main menu with play, options, and store access.
+•	Specify the HUD with score, speed, and distance.
+•	Outline pause menu options: resume, restart, return to main menu.
+•	Figure out how to distribute/ sell the game.
+•	Establish quality assurance and bug testing procedures.
+•	Ensure compliance with privacy policies and age ratings.
