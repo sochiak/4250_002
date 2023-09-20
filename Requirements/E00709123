@@ -1,0 +1,51 @@
+Ball Program
+============
+
+There MUST be a graphical user interface 
+
+The program MUST support mouse input for drawing obstacles
+
+The program MUST have options to start, pause, and exit the game 
+
+The program SHOULD have functionality for removing obstacles off the screen
+
+There MUST be a ball object that moves accross the screen
+
+The ball MUST have collision functionality so it can bounce off walls and obstacles
+
+The obstacles SHOULD have collision 
+
+The obstacles MAY move 
+
+The program MAY have physics 
+
+The program SHOULD have smooth animation 
+
+The program MAY have options for ball speed
+
+Arcade driving game 
+===================
+
+There MUST be a GUI that displays game screen, player's vehicle, and obstacles
+
+There MUST be controls for the vehicle (wasd) 
+
+There SHOULD be acceleration and decceleration 
+
+There MUST be a player vehicle 
+
+The game MUST have controls to start, pause, and end game
+
+There MAY be a scoring system
+
+There SHOULD be background music 
+
+There SHOULD be high definition graphics
+
+There SHOULD be vehicle customization
+
+There SHOULD be different stages 
+
+There MUST be obstacle with collision 
+
+ 

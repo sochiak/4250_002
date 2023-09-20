@@ -1,0 +1,9 @@
+The player MUST use the arrow keys to control the car.
+The car MUST have an acceleration comparable to a real vehicle. 
+The player MUST NOT crash the car more than 3 times in a single race.
+The player MUST go through every checkpoint before finishing the race.
+The player SHOULD go through the checkpoints in order.
+There MUST be at least 10 obstacles per race.
+There SHOULD be around 15 obstacles per race.
+There SHOULD NOT be more than 20 obstacles per race.
+The player SHOULD stay on the track.

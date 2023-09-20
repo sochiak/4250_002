@@ -1,0 +1,7 @@
+(Option 2)
+- The solution MUST respond to user input.
+- The solution MUST end the game when the car crashes.
+- The solution SHOULD have accurate graphics.
+- The solution MUST randomly assign time and location to obstacles.
+- The solution SHOULD feature various sizes and types of obstacles.
+- The solution MUST NOT do anything when the user input does not match the designated game controls.

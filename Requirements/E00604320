@@ -1,0 +1,30 @@
+Attempt at requirements for slide "pick one and try it":
+
+For the ball bouncing around:
+
+Mandatory:
+
+-whenever the player clicks and drags the mouse a obstacle should be drawn
+-the ball needs to start moving around the screen on its own
+-The ball needs to change directions upon contact with an obstacle larger than 3 pixels
+	-needs to check if the obstacles are big or not
+-The ball needs to change directions upon contact with a wall
+-There needs to be a way to exit the program
+
+Optional:
+-The game should work in different resolutions
+
+For the driving game:
+
+Mandatory:
+
+-A way for the user to steer
+	-Could use keyboard/mouse, controller, steering wheel
+-The game needs to have a menu system to start the game
+-The game needs to have pre-set tracks or a way to generate obstacles
+-The game needs to end at some point
+-The game needs to have a way to exit
+
+Optional:
+
+-The game should have multiple tracks

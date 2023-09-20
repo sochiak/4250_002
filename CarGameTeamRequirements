@@ -1,0 +1,39 @@
+# Race Car Game Requirements
+
+Team in the corner
+
+Premise: *Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.*
+
+Mandatory Functional:
+
+- Must have a bounded area
+- Must be able to control speed, breaking and stopping
+- Must have assigned keys
+- Must have ability to pause/restart/exit game
+- must “Crash” when car health == 0
+- Must have a game over screen
+- Must have at least 1 car
+- At least 1 map
+
+Mandatory Non Functional:
+
+- Must do nothing when non-functional keys are pressed
+- Intuitive controls
+- Obstacle Visibility
+
+Optional Functional: 
+
+- Have a crash sequence/animation
+- Should have at least one clear path
+- Track Music
+- Car health
+- Collision physics
+- Obstacles of different sizes
+
+Optional Non-Functional:
+
+- Fast load times
+- Locked at a certain FPS/Resolution
+- Different maps
+- Cars with different speeds/designs
+- Leaderboard/Point system
