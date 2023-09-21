@@ -1,0 +1,42 @@
+Sophia Herrell E00644715
+
+Arcade Game
+  Mandatory Functional Requirements:
+    There must be a user interface that generates obstacles, background, the car, etc
+    GUI must update in real time as the game progresses
+    Vehicle Movement: the player must be able to control the car with user input (arrow keys, etc)
+    Obstacles: obstacles must be generated and represented on screen
+    The game must detect collisions between the player car and obstacles 
+    Obstacles must be generated such that the user is capable of avoiding them
+    Points: the game must track the player’s progress based on distance traveled 
+    Game end: the game must end when the user collides with an obstacle
+    On game end, distance traveled without hitting an obstacle must be displayed to the user 
+  Mandatory Non-Functional Requirements:
+    The game must run smoothly on the target platform with a consistent frame rate
+  Optional Functional Requirements:
+    Temporary power ups can appear to the user providing speed boosts
+    The game can progressively increase in difficulty depending on time played
+    The game can include sound effects
+    Players can be allowed to customize their cars
+    Players can be allowed to customize their player character
+  Optional Non-Functional Requirements:
+    The game can be visually appealing 
+  Unhappy Paths:
+    If the player provides invalid input (e.g., pressing a key that is not mapped), the game should ignore it and maintain the current state.
+    If the game's performance degrades due to system limitations, it should provide a warning to the player and downgrade graphics 
+    If a power-up fails to function correctly (e.g., due to a bug), it should be ignored, and the game should continue without granting the power-up effect.
+    If the game fails to load due to a technical issue, it should display an error message and recommend appropriate actions to resolve the problem.
+    if the player drives out of the bounds of the game, the car should bounce back into the bounds of the game
+    if the game freezes or crashes during gameplay (e.g., due to a bug or system issue), it should display an error message and allow the player to restart or quit the game.
+Bouncy ball
+  Game must have a user interface 
+  UI must update in real time
+  User must be able to draw objects with a mouse
+  Ball must be able to bounce off the side of the screen 
+  User must be able to draw objects with the mouse 
+  Ball must be able to bounce off any of these objects greater than 3 pixels
+  There can be sound effects when the ball collides with an object
+  The game track the user's score by monitoring the number of collisions
+  The ball can go out of bounds, ending the game (like in Pong)
+  The game can include obstacles for the ball to destroy
+  The game can include a movable bar to control the direction of the bouncy ball
