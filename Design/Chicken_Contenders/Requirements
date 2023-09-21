@@ -1,0 +1,45 @@
+ScavengerRUS Tier Requirements:
+Secure Access:
+•	1 single admin account – Mandatory NF
+•	Account has username/password – Mandatory F
+•	2FA – optional F
+Hunts & Status
+•	Sort hunts by date created (oldest -> newest) – Mandatory F
+•	Show all hunts and their status – Mandatory F
+Create new Hunt:
+•	Ability to create a hunt – Mandatory F
+•	Set a start and end date- Mandatory F
+•	Set Title – Mandatory F
+•	Set Theme – Mandatory F
+•	Set invitation text – Mandatory F
+•	 Assign a list of tasks for players – Mandatory F
+  o	Task contains Label – Mandatory F
+  o	Task contains Lat/Long – Mandatory F
+  o	Must be able to tell if user is within 50 ft of task – Mandatory F
+  o	Task contains QR code – Mandatory F
+  o	Task can contain trivia – Mandatory F
+  o	Task can contain single word answer – Mandatory F
+  o	Task can contain both styles – Mandatory F
+Order of list:
+•	Task must have an order – Mandatory F
+•	Task will be the same for all players – Mandatory F
+•	Hunt must a URL – Mandatory F
+  o	Fixed order- Tasks must be displayed in the same order for all players – Mandatory F
+  o	Incremental
+    	Task must have a defined order – Mandatory F
+    	Display current tasks to user – Mandatory F
+    	Hide following task from user – Mandatory NF
+  o	Random order-
+    	Randomize task for user before hunt begins – Mandatory F
+    	Tasks must stay in generated order through the duration of hunt – Mandatory F
+Edit Existing Hunt
+•	Ability to edit active or pending hunts – Mandatory F
+•	Ability to edit all features – Mandatory F
+•	Not allowed to edit status and creation date- Mandatory NF
+•	Alert players when hunt has been changed via Text message – Mandatory F
+Account Creation
+•	Create user account with email and phone number – Mandatory F
+•	Assign unique access code to user account for hunt – Mandatory F
+•	Allow same id to be used in other hunts – Mandatory F
+•	Be able to find existing account via email and phone number – Mandatory F
+•	Be able to find existing account via access code – Mandatory F
