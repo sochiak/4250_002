@@ -1,0 +1,61 @@
+•	Bouncy ball program
+o	Mandatory Functional
+	The program must create a ball that is visible on the screen.
+	The ball has to bounce off the sides of the screen when it touches them.
+	Users have to be able to draw obstacles on the screen with their mouse.
+	The ball also needs to be able to move left or right continuously.
+	Any obstacles that are drawn by users must be larger than 3 pixels.
+
+o	Optional Functional
+	The program could contain a system that tracks your score.
+	Users could customize the screen background or change the color of their ball.
+	The program could contain a way to pause and resume the game.
+	It could also have a replay feature if one were to fail or succeed.
+
+o	Mandatory Non-Functional
+	Should be accessible to users with disabilities.
+	The program should be compatible with numerous operating systems.
+	It should be able to provide error messages when a user enters wrong inputs.
+
+o	Optional Non-Functional
+	Provide an option to adjust the audio levels.
+	It could be played through different input devices like a touchscreen, keyboard, or mouse.
+
+o	Happy Path
+	The program should run smoothly performance-wise.
+	Any obstacles that are drawn by the users should be able to interact with the ball consistently.
+
+o	Unhappy Path
+	The program should be able to preserve the user’s progress in the case of a crash.
+	Any drawn obstacles that are 3 pixels or less should be deleted and prompt the user with a warning to avoid doing so.
+
+•	Arcade driving game
+o	Mandatory Functional
+	The game must contain a vehicle that is controllable on the screen.
+	Players should be able to control the vehicle’s direction and speed.
+	Obstacles must be placed on the screen for the player to avoid.
+	If the vehicle collides with any obstacles it should result in a game over.
+
+o	Optional Functional
+	Players could be able to customize the appearance of their vehicle.
+	The game could contain additional features like abilities to increase the vehicle’s speed. 
+	Leaderboards could be implemented to show who is the best player.
+
+o	Mandatory Non-Functional
+	If the game were to contain multiplayer, the servers should be secure to prevent any players from cheating.
+	The game should be supported on multiple platforms like a phone, computer, or console.
+	The game should maintain a consistent frame rate.
+
+o	Optional Non-Functional
+	The game could have an official soundtrack to create a more immersive experience.
+	It could support multiple inputs such as a controller, keyboard, or mouse.
+
+o	Happy Path
+	A player’s account data should be accessible across all their devices.
+	The vehicles should be able handle inputs smoothly.
+	Whenever a vehicle runs into an obstacle the collisions should be detected accordingly.
+
+o	Unhappy Path
+	If the game were to crash or the user encounters a bug. The user should be able to upload the crash data or provide feedback.
+	Any network issues in the multiplayer mode should be prompted appropriately.
+	If a player were to leave the match midrace, the game should be able to continue smoothly.
