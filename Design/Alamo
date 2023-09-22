@@ -1,9 +1,164 @@
 Ethan Hensley, Josh Rucevice, Charlie Shahan, Jerry Galloway, Kurt Brewer, Joe Nagy
-(will fill out later with better data)
-Mandatory - 
+We worked on this together in a Discord, I am just the one to upload it all for credit.
 
-Optional - 
+Tier 2 Requirement Analysis 
+===========================
 
-Risk - 
+1) As an Admin, I want to have secure access to the site so that I can make changes to all aspects of the hunts
 
-Clarifying Questions - 
+Mandatory/Optional: Mandatory 
+
+Risks: Not using two factor authentication makes the admin account more vulnerable, so using two factor authenticaion should be mandatory. 
+
+Clarifications: None
+
+2) As an Admin, I want to be able to see all the hunts in the system and their status so that I can manage them effectively
+
+Mandatory/Optional: Optional
+
+Risks: 
+
+Clarifications: What are the words behind effectively? How should an Admin manage hunts?  
+
+3)  As an Admin, I want to be able to create a new hunt
+
+Mandatory/Optional: Mandatory 
+
+Risks: This will take a long time to make 
+
+Clarifications: 
+
+4) As an Admin, I want to be able to edit an existing hunt
+
+Mandatory/Optional: Mandatory 
+
+Risks: 
+
+Clarifications: 4b says the admin should not be able to edit the status of a hunt but 4c happens when the admin changes the status to active. Can the admin edit the status? 
+
+5) As an Admin, I want to be able to quickly create accounts for a list of people so that I don’t have to manually enter each person
+
+Mandatory/Optional: Optional
+
+Risks: This will take a long time to make
+
+Clarifications: What are the words behind quickly? 
+
+6) As an Admin, I want to be able to invite one or more people to play in a specific hunt so that I can control/manage who is involved
+
+Mandatory/Optional: Optional
+
+Risks: 
+
+Clarifications: What does the Admin mean by control/manage? 
+
+7) As an Admin, I want to be able to send notification to a subset of players in a hunt so that I can keep them updated of any changes or alerts
+
+Mandatory/Optional: Mandatory 
+
+Risks: 
+
+Clarifications: 
+
+8) As a Player, I want to be able to join a hunt so I can participate
+
+Mandatory/Optional: Mandatory 
+
+Risks: 
+
+Clarifications: 
+
+9) As a Player, I want to be able to team up with other people so we can participate in the hunt as a group
+
+Mandatory/Optional: Mandatory 
+
+Risks: 
+
+Clarifications: 
+
+10) As a Player, I want to be able to easily record in the game that I completed one of the tasks in the hunt so that I can get credit for my progress
+
+Mandatory/Optional: Mandatory 
+
+Risks: 
+
+Clarifications: What are the words behind easily? 
+
+11) As a Player, I want to be able to see how well I’m doing compared to other players so that I can be competitive
+
+Mandatory/Optional: Optional
+
+Risks: 
+
+Clarifications: 
+
+12) As a Player, I want to be able to see, on a map, which task locations I have visited and which ones I haven’t so that I can determine where to go next
+
+Mandatory/Optional: Mandatory 
+
+Risks: This might take a long amount of time, as well as having to have another way of checking if scavenger hunt requirements are validated, besides just location (50ft is a large area and might overlap)
+
+Clarifications: 
+
+13) As a Player, I want to be able to customize my username and profile picture so that I can manage the identity others can see for me
+
+Mandatory/Optional: Optional
+
+Risks: 
+
+Clarifications: 
+
+End of Requirements Analysis
+============================
+
+System Level Data Model: Architecture
+
+Architectural Design: Client-Server 
+
+Actors: Admin, Player 
+
+Objects: Hunts, Site, Accounts 
+
+================
+Admin
+username : string
+password : string
+
++CreateTask()
++EditTask()
++DeleteTask()
+================
+
+================
+Player
+phoneNumber : string
+username : string
+profilePicture : var
+profilePicturePath : var
+
+#ValidatePhone(number : string)
++SetProfilePicture(userID : string)
+================
+
+================
+Hunt
+accessCode : int
+qrCode : var
+qrCodePath : var
+
++CreateQrCode()
+#ValidateQrCode()
+================
+
+================
+Site
+accounts : Accounts
++AdminLogIn(username : string, password : string)
+================
+
+================
+Accounts
+player : Player
+admin : Admin
+================
+
