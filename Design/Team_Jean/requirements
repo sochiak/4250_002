@@ -1,0 +1,42 @@
+Mandatory Requirements:
+
+1.	Secure Access for Admin:
+•	Admins must be able to log in with a username and password. F
+•	Two-factor authentication is optional. F
+
+2.	Hunt Management:
+•	Admins should be able to view and manage hunts based on various criteria ( date created, status). F
+•	Sorting options include oldest first, newest first, active hunts, expired hunts, and pending hunts. F
+•	Admins can create new hunts with start and end dates, titles, themes, and invitation text. F
+
+3.	Task Management:
+•	Admins must define tasks for hunts with specific details, including labels, locations (Lat/Long), QR code values, and QR code encoding. F
+•	Tasks can be Multiple Choice trivia or Single Word answer Trivia. F
+•	Admins can specify the order of task presentation (fixed list, random order, or incremental). F
+
+4.	Editing Existing Hunts:
+•	Admins can only edit hunts that are Pending or Active. F
+•	Admins can edit most parts of the hunt, except for status and creation date. NF
+•	Changing a hunt's status to "Active" triggers notifications to associated players. F
+
+5.	Player Account Management:
+•	Admins should create player accounts using email addresses and phone numbers. F
+•	Assigning unique access codes for each player for each hunt is required. F
+•	Admins can find existing accounts using email addresses, phone numbers, or access codes. F
+•	Admins can invite players to participate in hunts via email and text messages. F
+
+6.	Player Invitation:
+•	Admins can invite individuals or teams of players to specific hunts.
+
+7.	Notifications:
+•	Admins can send notifications to players in hunts via email or text message. F
+Optional Requirements:
+•	Two-factor authentication for Admin access is optional. F
+•	Admins have the option to send notifications as email or text messages. F
+•	Admins can choose between different sorting options for hunt management. F
+•	Admins can enable or disable two-factor authentication. F
+
+Requirements Involving Risk or Clarification:
+•	The requirement for "precise enough to establish if someone is within 50 feet of it" (in Task Management) may require some clarification on how precision is determined and how this will be implemented.
+•	The requirement regarding access codes with associated email or phone numbers (in Player Account Management) may need clarification on the purpose of this association.
+
