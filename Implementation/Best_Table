@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Transactions;
+//Josh Rucevice
+//Jerry Galloway
+namespace Lab11Recursion
+{
+    class Recursion
+    {
+        private static List<string> stringPermutationsList = new List<string>();
+        private static Boolean running = true;
+
+	//Main to run code
+        public static void Main()
+        {
+            
+            do
+            {
+                Console.WriteLine("Please input 2 sets ofintegers");
+                Console.WriteLine(SuperDigit(int.Parse(Console.ReadLine())));
+                running = false;
+            } while (running);
+            
+           
+
+          
+        }
+
+	//Performs Math for recursion and coverts it into a list for printing out
+        public static int SuperDigit(int number)
+        {
+            int superDigit = 0;
+            int lengthOfNumber = number.ToString().Length;
+
+            List<int> digits = new List<int>(lengthOfNumber);
+	    //Perfomrs the math
+            for (int i = 0; i < lengthOfNumber; i++)
+            {
+                digits.Add(number % 10);
+                Console.WriteLine(number.ToString());
+                number /= 10;
+            }
+	    //adds to list
+            foreach (int digit in digits)
+            {
+                superDigit += digit;
+            
+            }
+
+            if (superDigit > 10)
+                return SuperDigit(superDigit);
+            else
+                return superDigit;
+
+        }
+
+
+    }
+
+}
