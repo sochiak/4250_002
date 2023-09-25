@@ -1,0 +1,17 @@
+Jackson Denti, Chris Bragg, Ryan Cooper
+Three Musketeers: Implementation
+Problem #2: String ASCII
+
+Design:
+Array of size 256 to represent ASCII characters (extended)
+Prompt User (string or file), use decision structure to determine which "branch" the code needs to take.
+
+String Branch
+  - Use a loop to move through each char in the string and use the ASCII representation to iterate (count) each character
+    that is inside our array of ASCII numbers.
+  - Return the count of each char and display the top 3 most found characters, also return any chars with a count of 0.
+  - Then take the string and use a for loop starting from the end of the string and using i-- to print the string in reverse order.
+  - Handle exceptions; blank string, etc.
+
+File Branch
+  - 
