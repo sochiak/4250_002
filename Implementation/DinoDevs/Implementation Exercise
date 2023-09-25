@@ -1,0 +1,29 @@
+Requirements Analysis
+
+Mandatory
+
+•	Must prompt user for two positive integers (M NF)
+•	Must inform user that inputs can only be positive integers (M F)
+•	Must inform user that inputs must be less than or equal to 10,000 (M F)
+•	Must add the two positive integers from user input together to get sum (M NF)
+•	Must separate least significant digit from the sum (M NF)
+•	Must add separated least significant digit to remaining integer (M NF)
+•	Must use recursion to repeat the process until a single digit is achieved (M NF)
+•	Must show resulting single digit to user (M NF)
+•	User must be able to continue or exit (M F)
+•	Invalid inputs must display an error message (M NF)
+•	If the user uses an invalid input, the program prompts for new valid inputs (M NF)
+
+Optional
+
+•	User can use doubles as inputs (O F)
+•	User can use negative integers or doubles as inputs (O F)
+•	Can display the result of the sum for the user (O F)
+
+Design 
+
+Risk: Inputs and sum of inputs can result in Overflow exception.
+Solution: Limit input range to a maximum of 10,000.
+
+Risk: Inputs are < 1.
+Solution: Display an error message and re-prompt user for valid inputs.
