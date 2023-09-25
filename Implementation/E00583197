@@ -1,0 +1,70 @@
+/* -------------Requirements-----------------
+Using Recursion; take two numbers in from the user (a human) and add them 
+together then separate the least significant digit and add it the remaining 
+digits and so on until you have a single digit answer. 
+
+- MUST use recursion (M)(NF)
+- MUST take two numbers from the user (M)(F)
+- MUST have functionality to seperate least significant digit from a number (M)(F)
+- MUST have functionality to add the digit back into the original value with
+    the correct scaled value (M)(F)
+
+- Inputs should be float values (O)(NF)
+- Should be written in C# (O)(NF)
+
+-------------Design-----------------
+Main method that gets float inputs from user, adds them, and calls the recursive
+method using the resulting float value
+
+Recursive method that seperates the least significant digit from the input and adds
+it to the NEW least significant digit
+Ex. 451 --> 45 + 1 = 46
+- seperate last digit with modulo operator: num % 10 = least significant digit of num (StackOverflow)
+
+
+-----------Assumptions--------------
+- Instructions specify individual digits, so negative inputs will be handled the same as positive
+- User wants the single digit returned instead of printed out
+
+*/
+class Problem {
+    public static void Main(string[] args) {
+        float user1 = 0;
+        float user2 = 0;
+        float total = 0;
+        bool ex = true;
+
+        // obtain and validate user inputs
+        while (ex) {
+            try {
+                Console.WriteLine("Enter the first number:");
+                user1 = Console.ReadLine();
+                ex = false;
+            } 
+            catch (Exception e) {
+                Console.WriteLine("Please enter a valid number!");
+            }
+        }
+        ex = true;
+        while (ex) {
+            try {
+                Console.WriteLine("Enter the second number:");
+                user2 = Console.ReadLine();
+                ex = false;
+            } 
+            catch (Exception e) {
+                Console.WriteLine("Please enter a valid number!");
+            }
+        }
+
+        // add exception handling for an overflow, not sure of specifics yet
+        total = user1 + user2;
+
+        // call recursive method and return single digit
+        return Calculate(total);
+    }
+
+    static int Calculate(float total) {
+        // logic here
+    }
+}
