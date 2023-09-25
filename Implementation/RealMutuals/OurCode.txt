@@ -1,0 +1,43 @@
+// This implemntation is not complete.
+///////////////////////////////////////////////////////////////////////////////
+//
+//  Author: Chris Upham, uphamc@etsu.edu, Sophia Herrell, herrells@etsu.edu
+//  Course: CSCI-4250-001 - Software Engineering 1
+//  Assignment: Implementation For the Implementation In-Class Assignment
+//  Description: Our program will take two numbers via user input, sum them together, remove
+//  the least significant digit, add it to the remaining numbers, and repeat this process
+//  recursively until a number of only one digit remains.
+//  
+///////////////////////////////////////////////////////////////////////////////
+namespace Implementation_Exercise_SE1_9._25._23
+{
+    /// <summary>
+    /// The scaffolding for our program.
+    /// </summary>
+    internal class Program
+    {
+        /// <summary>
+        /// This is the driver for our program.  It handles user input and does all of the writing to the console.
+        /// </summary>
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to our program.");
+            Console.WriteLine("You will be prompted for two numbers.  You must enter positive whole numbers (zero is allowed).");
+            Console.WriteLine("The numbers will then be added together and recursively reduced to a single number by removing the least significant digit.");
+            Console.WriteLine("The least significant digit will then be added to the remaining digits and the process is repeated til a single digit remains.\n");
+
+            Console.WriteLine("Enter your first number.  Remember it must be a positive integer and can be zero.  If the number is too large you will be asked for a new number.");
+
+        }
+        /// <summary>
+        /// The least significant digit is isolated and added to the remaining number.  The result is returned and recurisvely used in the same method.
+        /// If the result is only one digit we are finished and no longer recursively call our method.
+        /// </summary>
+        /// <param name="summedUserInput">Both user inputs summed together.</param>
+        /// <returns>The number after the least significant digit is removed and added.</returns>
+        static int RecursiveReduction(int summedUserInput)
+        {
+            return 0; // Return the result
+        }
+    }
+}
