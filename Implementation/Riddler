@@ -1,0 +1,36 @@
+E00576540
+
+// not currently looping or commented properly; will return later
+
+namespace Implementation1_Brewer_Kurt;
+
+internal class Program
+{
+    //Using Recursion; take two numbers in from the user (a human) and add them together then separate the least significant digit and add it the remaining digits and so on until you have a single digit answer. 
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enter your first number (positive and whole integers only): ");
+        int numOne = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter your second number (positive and whole integers only): ");
+        int numTwo = Convert.ToInt32(Console.ReadLine());
+
+        //error handling and only allowing positive and whole numbers will be added later
+
+        int addition = numOne + numTwo;
+        Console.WriteLine($"\n{numOne} + {numTwo} = {addition}");
+
+        newNumber(addition);
+
+    }
+    public static int newNumber (int num)
+    {
+            int leastSig = num % 10;
+            int droppedNum = num / 10;
+
+            Console.WriteLine($"The least significant digit is: {leastSig}");
+            Console.WriteLine($"The new number is: {droppedNum}");
+
+        return num;
+    }
+}
