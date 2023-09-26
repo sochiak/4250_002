@@ -1,0 +1,30 @@
+Requirements Assignment – Absent Monday
+- Try to write the requirements for a program that bounces a ball off the sides of the screen
+and any obstacles larger than 3 pixels the user draws with the mouse
+- The program must have set bounds for all four sides of the screen
+- The program needs to detect the mouse, and be able to draw pixels
+- The pixels must have collision around them, the same collision that the
+boundaries for the screen has that allows it to bounce the ball
+- The program needs to have a ball that has velocity when it begins, as well as
+redirection when it collides with obstacles or the screen boundaries
+- Do the obstacles eventually disappear? If so the program needs an internal timer
+for each obstacle that will remove it once the time goes away
+- What happens for obstacles lesser than 3 pixels? The program should immediately
+delete them, or make them disappear. (same internal clock as above but set to 0)
+- What is the velocity of the ball initially? The program must have a constant
+velocity for the ball, or one that updates based on collision.
+
+
+- Try to write the requirements for simple arcade style driving game where the player has
+to navigate around obstacles to keep from crashing.
+- The program needs to have a race track, with obstacles that have collision when
+the driver collides with them
+- The program needs to have a pre generated track, or a procedurally
+generated, including the track as well as obstacles
+- The program needs to have a set speed for the racer, as well as velocity for turning
+left and right
+- The program needs to have an end scene, where the player eventually does hit an
+obstacle
+- (Optional) The program needs to have a high score system that displays when the
+game ends
+- The high score system will increase as long as the game is running

@@ -1,0 +1,80 @@
+using System;
+using System.Diagnostics.Metrics;
+
+namespace RecursionLab
+{
+
+
+//    recursion-
+//take two numbers
+//add the last digit rrecursively
+
+//until 1 digit is left
+//    whole integers - assumption
+
+//make sure the user input is clear(ENTER WHOLE NUMBR NO NEGATIVE oVR 0)
+
+
+
+//Questions - What to do after the single digit is happened
+
+    class Program
+    {
+        // I am coding the userinput this way to only take whole numbers, non negatives, and integers over 0 and will be declared
+        // as so when asked for the user. I am making a while loop to try to make it so it will not continue until the numbers are 
+        // valid.
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please input the first whole, non negative, integer over 0");
+            int userNumber1 = UserInputValidation();
+
+            Console.WriteLine("Please input the second whole, non negative, integer over 0");
+            int userNumber2 = UserInputValidation();
+
+            RecursiveNumbers(userNumber1, userNumber2);
+        }
+
+
+        // I am making the userInput a method, since I'm using it twice and it works as a method pretty well
+        // Declutter the main program a bit
+        public static int UserInputValidation() 
+        {
+            string userInput = Console.ReadLine();
+            int numberToReturn = -1;
+            while (!int.TryParse(userInput, out numberToReturn) || numberToReturn <= 0)
+            {
+                Console.WriteLine("Please input a whole, non negative, integer over 0");
+                userInput = Console.ReadLine();
+            }
+            return numberToReturn;
+        }
+
+
+        // I am going to make the recursion method to take the two numbers defined by the user,
+        // To add them, and then call the recursion method inside the method until there is a single digit left.
+        // I will print the additions, as well as an exciting message. I will check to see the if there is a single digit
+        // left by checking how many digits are there, and that will be inputted back into the method.
+        public static void RecursiveNumbers(int firstNumber, int secondNumber)
+        {
+            int numberAfterAddition = firstNumber + secondNumber;
+            Console.WriteLine($"\n{firstNumber} + {secondNumber} = {numberAfterAddition}");
+            if (numberAfterAddition.ToString().Length > 1)
+            {
+                // Console.WriteLine("Over 1!"); test cases
+                int numberWithDroppedDigit = numberAfterAddition / 10;
+                int droppedDigit = numberAfterAddition % 10;
+
+                RecursiveNumbers(numberWithDroppedDigit, droppedDigit);
+            }
+            else
+            {
+                // Console.WriteLine("Single digit!");
+                Console.WriteLine($"{numberAfterAddition} is the final number.");
+            }
+        }
+
+
+    }
+
+
+}
