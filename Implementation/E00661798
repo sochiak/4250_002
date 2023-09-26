@@ -1,0 +1,44 @@
+###### Problem One ###### - Via without code
+Steps - 
+1. Take two numbers as an input from the user.
+
+2. "add them together"
+
+3. Separate the least significant digit (rightmost) using recursion. (until we have one singular digit for an answer).
+
+############################
+
+Assumptions -
+1. We assume that the user will enter two numbers that will be valid integer values.
+	- Furthering off of this, we will have the program assume that the user will enter a integer that is not negative or a float. 
+	
+2. Based off the requirements stated on D2L, we know that the program will assume you want to add the least significant digit first which is the rightmost digits.
+
+3. Like mentioned in class, it's also important that we make sure the numbers aren't too large because we might encounter errors. (Uncertain of what the error would be but something involving too many recursions because the user thought 1 million was good enough.)
+
+4. Because we did not ask for extra requirements, we will have to assume the program will not have any sort of error handling however it would be ideal.
+
+############################
+Code - Implementation - Theoretical
+
+1. Have a method that will handle all of our digit recursion.
+	
+	- We could have something where if both of our numbers entered are single digits. We would just return their sum.
+	
+	- After doing some research, to separate our least significant digits we would need to use % or modulus by 10 because it works with numbers that are represented in base 10.
+	
+	- We would need to use recursion and add the leftover digits and add those to the sum of the least significant digits by using // to divide the first number by the second.
+	
+	- By this point I think we would need to just keep calling our method on the remaining numbers.
+	
+	- We would return the variable resultDigit which adds our least significant digits.
+	
+2. Input from the user
+	- Have an integer named number1 that takes user input (input could be something like: "Please enter a whole number between 1 through 100" and stores it.
+	- Have an integer named number2 that takes user input (same logic as number1) and stores it. 
+
+3. Calculate and print our final result.
+	- Have a variable named resultDigit that calls on our digit recursion method which contains both input 1 and 2
+	- Print "The single-digit is: " + resultDigit
+
+############################
