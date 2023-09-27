@@ -1,36 +1,62 @@
 E00576540
 
-// not currently looping or commented properly; will return later
-
-namespace Implementation1_Brewer_Kurt;
+// Now with working code (one minor cosmetic problem and a problem with the catch exception)
 
 internal class Program
 {
+
     //Using Recursion; take two numbers in from the user (a human) and add them together then separate the least significant digit and add it the remaining digits and so on until you have a single digit answer. 
 
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter your first number (positive and whole integers only): ");
-        int numOne = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter your second number (positive and whole integers only): ");
-        int numTwo = Convert.ToInt32(Console.ReadLine());
+        // a try-catch block for non-integer inputs and a do-while loop for non-positive integer inputs
+        try
+        {
+            int numOne;
+            do
+            {
+                Console.WriteLine("Enter your first number (positive and whole integers only): ");
+                numOne = Convert.ToInt32(Console.ReadLine());
+                if (numOne < 1) Console.WriteLine("Positive integers only");
+            } while (numOne < 1);
 
-        //error handling and only allowing positive and whole numbers will be added later
+            int numTwo;
+            do
+            {
+                Console.WriteLine("Enter your second number (positive and whole integers only): ");
+                numTwo = Convert.ToInt32(Console.ReadLine());
+                if (numTwo < 1) Console.WriteLine("Positive integers only");
+            } while (numTwo < 1);
 
-        int addition = numOne + numTwo;
-        Console.WriteLine($"\n{numOne} + {numTwo} = {addition}");
+            //the base equation that will give us our first number - needed for the recursion method
+            int addition = numOne + numTwo;
+            Console.WriteLine($"\n{numOne} + {numTwo} = {addition}");
 
-        newNumber(addition);
+            Recursion(addition);
+        } catch(Exception e)
+        {
+            //warning: entering a non integer will cause the program to catch the exception, but it will close the program and will have to be restarted. needs to be looped
+            Console.WriteLine("Positive and whole integers only.");
+        }
 
     }
-    public static int newNumber (int num)
+    public static int Recursion (int num)
     {
-            int leastSig = num % 10;
-            int droppedNum = num / 10;
+        int leastSig = num % 10;
+        int droppedNum = num / 10;
 
-            Console.WriteLine($"The least significant digit is: {leastSig}");
-            Console.WriteLine($"The new number is: {droppedNum}");
+        Console.WriteLine($"The least significant digit is: {leastSig}");
+        Console.WriteLine($"The new number is: {droppedNum}\n");
+        Console.WriteLine($"{droppedNum} + {leastSig} = {droppedNum + leastSig}");
 
-        return num;
+        //base case - it stops the recursion when the new number is one digit, but it isn't working 100% perfectly; there's still an additional line of code that needs to not be there.
+        // the droppedNum variable is the number once the least significant digit is dropped
+        if (droppedNum < 10)
+        {
+            return droppedNum;
+        };
+
+        //recursive case - here's where the function calls itself instead of iterating. 
+        return (num % 10 + Recursion(num / 10)); //this line of code is taken from here: https://www.geeksforgeeks.org/sum-digit-number-using-recursion/
     }
 }
