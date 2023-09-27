@@ -1,0 +1,67 @@
+Team Name: Bryson and Tyson 
+using System.Collections.Generic;
+using System;
+
+namespace Implementation{
+
+
+    /*
+    This is the class contains our main method as well as the method which performs the calculations
+    needed to solve the problem. Our variable names and method names are made to be self explanatory, with comments provided when needed.
+    */
+    public class Program{
+
+        //main method, will ask user for 2 numbers and use those as input into the method doing
+        // the actual calculations.
+        static void Main(string[] args)
+        {
+        
+        Boolean whilecondition = true;
+         while(whilecondition == true){  
+            Console.WriteLine("Run the program? Enter Y or N");
+
+            string conditioninput = Console.ReadLine().Trim(); 
+            if(conditioninput != "Y" || conditioninput != "y"){
+                break;
+            }
+            else{
+        try
+        {    //takes in input from the user for the addition
+        System.Console.WriteLine("Enter an integer");
+        string input1 = Console.ReadLine();
+        
+        System.Console.WriteLine("Enter another integer");
+        string input2 = Console.ReadLine();
+        //must parse the strings to int to be able to complete addition
+        int input1int = Int32.Parse(input1);
+        int input2int = Int32.Parse(input2);
+        int result = input1int + input2int;
+        System.Console.WriteLine(CalculateNumber(result));
+        }
+        catch(FormatException ex){
+            System.Console.WriteLine("Incorrect input format, program only takes whole numbers");
+        }
+         }
+         }
+        }
+
+
+
+        public static int CalculateNumber(int input){
+
+           //give us the least significant digit
+            int leastSignificantDigit = input % 10;
+            //shaves off the least signficant digit to just the remaining
+            int restOfNumber = input / 10;
+
+            int result = leastSignificantDigit + restOfNumber;
+            //guarantees a single digit number
+            if(result < 10)
+            {
+                return result;
+            }
+            else return CalculateNumber(result);
+           
+    }
+}
+}
