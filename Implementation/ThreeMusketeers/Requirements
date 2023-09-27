@@ -1,0 +1,19 @@
+Requirements
+____________________________________________
+F - fucntional
+NF - non functional
+
+Required:
+print out top three chars - F
+print out number of undetected chars - F
+print out the string in reverse order -  F
+breaks ties by lowest ASCII value - NF
+ASCII translation from string/file - NF
+
+Optional:
+The ability to take in a file - F
+ability to write out a report - F
+error handling - NF
+file type limitations - NF
+print out total characters - F
+

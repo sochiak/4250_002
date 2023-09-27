@@ -1,0 +1,17 @@
+Problem
+=======
+Take in a string (from a user or a file), compute the total number of occurrences of each character in the ASCII set. Print out the top three characters (with the most occurrences). Print out how many characters in the ASCII set you didn’t detect. Then print out the string in reverse order.
+
+1. String from a user or a file as input 
+- File is an optional function 
+- User is a mandatory function 
+- No limit to size 
+- Must be in exteneded ASCII 
+
+2. Top 3 reoccuring charachters in the input string must be displayed 
+- ASCII code order if more than top 3 characters are same count 
+
+3. Number of ASCII charachters not detected in the input string must be displayed
+- 
+
+4. Input string in reverse order must be displayed

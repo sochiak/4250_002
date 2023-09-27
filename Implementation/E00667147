@@ -1,0 +1,15 @@
+David Edwards
+
+Implementation Exercise: Using Recursion; take two numbers in from the user (a human) and add them together then separate the least significant digit and add it the remaining digits and so on until you have a single digit answer.
+
+Requirements – Using recursion, user input, add the two numbers from the user together, check to make sure that the numbers are valid numbers (numbers = above zero AND whole number), be able to take off the LSD and add it to the remaining digits, at the end give the answer which would be a single digit
+Design – This program would function at the following:
+•	Ask the user to enter two VALID numbers that would be added together.
+  o	VALID meaning # > 0 i.e., 9 + 25 or 98 + 1
+    -	IF a user enters a non-valid number, tell them it is invalid and what number is expected, ask them to enter a number again.
+  o	When the user presses enter to enter the two numbers, add the numbers together and put the added amount into an integer.
+•	Feed the added amount into the program and start doing the recursion.
+  o	It would go through the number entered, find the least significant digit, add it to the remaining digits, and continue doing the same thing until there is only one single digit.
+    -	It takes the number and first makes sure that it is greater than 10, if it is greater than 10 then it is more than one digit and can go through the recursion again.
+    -	Takes the number
+•	The final output would be the single digit that comes from doing the recursion.
