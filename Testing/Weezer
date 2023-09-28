@@ -1,0 +1,103 @@
+Ethan Hensley, Ethan Webb, Joe Nagy
+
+I think we did a traceability matrix already by doing it the way we did, and I think we got most cases. We tried to do it as the way you explained, precondition - > action - > postcondition.
+
+Test Cases:
+1.
+	a.
+	- The game is running, the user presses the right click, a missile should initiate.
+	- The game is running, the user presses a button that isn't right click, a missile should not initiate.
+
+	b. 
+	- The game is running, the user presses the space button, a missile should initiate.
+	- The game is running, the user presses a button that isn't the space button, a missile should not initiate.
+
+	c. (also works for 7.)
+	- The game is running with 5 missiles on screen, the user tries to initate a new one, the game should not initiate one.
+	- The game is running with no missiles, the user tries to initiate six missiles, the game only initiates five.
+
+	d. 
+	- The game has a missile on screen, the missile goes off screen, the missile is removed from the game.
+
+	e.
+	- The game is running, a missile is initiated, the missile should have constant speed.
+	- The game is running with exisiting missiles on screen, a missile is initiated, all the missiles on screen should have a constant speed.
+
+	f. 
+	- The game is running with no missiles on screen, a user initiates a launch, the missile is initiated at the center bottom of the screen. 
+
+	g.
+	- The game is running, a missile is initiated, the direction should be a constantly vertically straight. 
+	
+	h.
+	- The game is running, a missile collides with a ship, the hit is detected.
+	- The game is running, a missile does not collide with a ship, the hit should not be detected.
+	- The game is running, there are no ships on the screen, hits should not be detected.
+
+	i.
+	- The game is running, a hit is detected from a missile colliding with a ship, an explosion is displayed.
+	- The game is running, a hit is not detected from a missile colliding with a ship, an explosion is not displayed. 
+	- The game is running, there are no ships on the screen, an explosion should not be displayed.
+	
+	j. 
+	- The game is running, a hit is detected between a missile and ship, the collided missile and ship should be removed. 
+	- The game is running with multiple missiles, a hit is detected between a missile and ship, only the collided missile and ship should be removed.
+	- The game is running with multiple ships, a hit is detected between a missile and a ship, only the collided missile and ship should be removed.
+
+	k.
+	- The game is running, a hit between a ship and missile is detected, the game should add one to the count.
+	- The game is running, a hit is not detected between a ship and missile, the game should not add one to the count.
+	
+
+2.
+	b.
+	- The game is running, there are only 1 configurable value, there should only be 1 type of ship.
+	- The game is running, there are multiple types of configurable values, there should be multiple types of ship.
+	- The game is running, there is 0 configurable value of ships, there should be a default ship or the game should not run.
+	c.
+	- The game is running with only 1 type of configurable value ship, the ship is initiated, the ship should have the right ship image.
+	- The game is running with multiple types of configurable value ships, ships are initiated, the ships should each have their respective ship image attached to them. 
+	- The game is running with multiple types of configurable value ships, a ship is initiated with the wrong ship image, the ship should be removed.
+
+2.
+    a, d.    
+	- The game is running with no ships on the screen, set spawn rate to 0% and observe.
+	- A single ship should spawn, and each time it is removed, a single new ship should replace it. 
+	- Ship count should not exceeed 1. While ship is still on screen, no other ships should spawn.
+
+	- The game is running with one or more ships on the screen, set spawn rate to 100% and observe.
+	- Ships should spawn (filling the on-screen ship cap of 10), and each time one is destroyed another should spawn in its place. 
+
+	- The game is running with one or more ships on the screen, set spawn rate to 50% and observe. Ships should spawn
+
+
+3. 
+
+	- The game has been played out until 9 hits have occurred, the 10th hit occurs, the game ends.
+
+4,5.    
+	- The game is running as normal, the user presses the left mouse button, the game ends.
+	- The game is running as normal, the user presses the escape key, the game ends.
+	- The game is running as normal, the user presses unassigned keys, the game does NOT end.
+
+
+2e. 
+	- The game is currently running with active ships on the screen.
+    
+	- The ships moves to the edge of the screen (left or right) so that it goes off the screen.
+	- Ensure that the ship is no longer active or visibile when it goes off the screen.
+
+5.
+	- The game is currently running with/without any recent actions committed.
+	- The user presses the 'Esc' button to end the game.
+	- Check that the game ends promptly when the 'Esc' button is pressed.
+
+6.
+	- The game is currently running and the user hasn't pressed any controls to launch a missile within the last 5 minutes.
+	- Idle for 5 minutes without initiating any missiles.
+	- Check that the game automatically ends when the user has not launched any missiles within 5 minutes.
+
+7 (Combined Missile Test Case). 
+	- The game is currently running and there are currently no active missiles on the screen.
+	- The user rapidly clicks the right mouse button six times with no current active missiles. 
+	- Ensure that when the user clicks the right mouse button six times, only five missiles are launched and it does not exceed the limit of five active missiles.
