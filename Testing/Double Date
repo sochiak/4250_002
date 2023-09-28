@@ -1,0 +1,193 @@
+1.a
+	Precondition:
+	no inputs
+	
+	Action:
+	rmb click 
+	
+	Postcondition:
+	fires a missile on screen
+	
+1.a
+	Precondition:
+	no inputs
+	
+	Action:
+	no inputs (observe)
+	
+	Postcondition:
+	no missile fires
+	
+1.b
+	Precondition:
+	no inputs
+	
+	Action:
+	spacebar
+	
+	Postcondition:
+	fires a missile on screen
+	
+1.b
+	Precondition:
+	no inputs
+	
+	Action:
+	no inputs (observe)
+	
+	Postcondition:
+	no missile fires
+	
+1.c
+	Precondition:
+	no active missiles on screen
+	
+	Action:
+	rmb click / spacebar 5 times
+	
+	Postcondition:
+	only 5 active missiles on screen 
+	
+1.c
+	Precondition:
+	no active missiles on screen
+	
+	Action:
+	rmb click / spacebar spamming more than 5 times
+	
+	Postcondition:
+	5 active missiles on screen
+	
+1.d
+	Precondition:
+	active missiles on screen
+	
+	Action:
+	missile reaches the edge of the screen
+	
+	Postcondition:
+	missile is removed from the screen and the active missile count
+	
+2.a
+	Precondition:
+	there are no active ships
+	
+	Action:
+	solution launches a ship
+	
+	Postcondition:
+	a ship appears on screen
+	
+2.b:
+	Precondition:
+	No ships on the screen.
+	
+	Action:
+	the configurable ship value is set to 5.
+	
+	Postcondition:
+	Five types of ships to spawn at relatively similars rates.
+	
+2.b:
+	Precondition:
+	No ships on the screen.
+	
+	Action:
+	the configurable ship value is set to 0.
+	
+	Postcondition:
+	No ships to spawn.
+	
+2.c
+	Precondition:
+	ships appear on screen
+	
+	Action:
+	observe ship types
+	
+	Postcondition:
+	Ship types match the image of the ships
+
+2.d
+	Precondition:
+	no ships on the screen.
+	
+	Action:
+	configured time has passed.
+	
+	Postcondition:
+	one of the configured ships is launched by the solution.
+	
+1.e-f
+	Precondition:
+		No missles are present on the screen.
+		
+	Action:
+		Missiles are fired
+	
+	Postcondition:
+		Each missile is created at the bottom center of the screen,
+		follows a perfectly vertical path up the screen, and maintains
+		a constant speed across all missiles.
+
+1.h-k
+	Precondition:
+		There are an arbitrary number of ships.
+		
+	Action:
+		The mouse button or spacebar is pressed to put missiles on a collision path
+	
+	Postcondition:
+		A detection event occurs on "hit", an explosion displays,
+		both the missile and ship are removed from the scene,
+		finally some hit counter is increased by 1.
+		
+
+
+3:
+	Precondition:
+	The game is running.
+	
+	Action:
+	The user hits ten ships.
+	
+	Postcondition:
+	The game ends.
+	
+3:
+	Precondition:
+	The game is running.
+	
+	Action:
+	The user attempts to hit 11 ships.
+	
+	Postcondition:
+	The game ends at 10 hits.
+	
+4:
+	Precondition:
+	
+	
+	Action:
+	
+	
+	Postcondition:
+	
+5:
+	Precondition:
+		
+	
+	Action:
+	
+	
+	Postcondition:
+	
+6:
+	Precondition:
+	The game is running.
+	
+	Action:
+	No missiles are launched for 5 consecutive minutes.
+	
+	Postcondition:
+	The games ends after 5 minutes.
