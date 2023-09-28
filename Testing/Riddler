@@ -1,0 +1,238 @@
+E00576540 – Kurt Brewer
+//finish and make traceability matrix
+1a.
+	TEST CASE I.
+  	PRECONDITION: The game is running and no missiles have been launched.
+    ACTION: Click the right button on the mouse five times.
+    POSTCONDITION: Five missiles are launched in time with the clicks.
+
+  TEST CASE II.
+    PRECONDITION: The game is running and no missiles have been launched.
+    ACTION: Click the left button three times and the middle button, if available, three times.
+    POSTCONDITION: Nothing happens and the game continues running.
+
+	TEST CASE III.
+  	PRECONDITION: The game is running and no missiles have been launched.
+  	ACTION: Using a one-button trackpad on a laptop, and use whatever trigger is equivalent to the right-button click on a standard mouse.
+  	POSTCONDITION: Five missiles are launched in time with the clicks.
+
+	TEST CASE IV.
+  	PRECONDITION: The game is running and no missiles have been launched.
+    ACTION: Using a one-button trackpad on a laptop, and use whatever trigger is equivalent to the left-button and middle-button click on a standard mouse.
+    POSTCONDITION: Nothing happens and the game continues running.
+
+1b.
+	TEST CASE I.
+  	PRECONDITION: The game is running and no missiles have been launched.
+  	ACTION: Press the spacebar three times.
+  	POSTCONDITION:  Five missiles are launched in time with the clicks.
+	
+	TEST CASE II.
+    PRECONDITION: The game is running and no missiles have been launched.
+    ACTION: Press a letter key, number key, and a punctuation key each three times, all different keys.
+    POSTCONDITION: Nothing happens and the game continues running.
+
+1c.
+	TEST CASE I.
+    PRECONDITION: The game is running and there are no missiles on the screen.
+    ACTION: A missile-launch button is pressed five times.
+    POSTCONDITION: Five missiles appear on the screen in time with the clicks and are present on screen at the same time.
+
+	TEST CASE II.
+  	PRECONDITION: The game is running and there are no missiles on the screen.
+  	ACTION: A missile-launch button is pressed seven times.
+  	POSTCONDITION: Still, only five missiles appear on the screen in time with the clicks, and nothing happens to the game when the additional missiles are launched.
+
+1d.
+	TEST CASE I.
+  	PRECONDITION: A missile has been launched.
+  	ACTION: The missile fully goes off screen.
+  	POSTCONDITION: The missile is deleted from the program the second it is no longer visible.
+
+1e.
+	TEST CASE I.
+  	PRECONDITION: The game is running and there are no missiles on the screen.
+  	ACTION: Rapidly launch 5 missiles at a time 10 times with the right mouse button and measure that none of the missiles are going past each other and maintaining an even distance with each other the entire length of the screen.
+  	POSTCONDITION: The missiles are going at a constant rate.
+
+TEST CASE II.
+  	PRECONDITION: The game is running and there are no missiles on the screen.
+  	ACTION: Rapidly launch 5 missiles at a time 10 times with the spacebar and measure that none of the missiles are going past each other and maintaining an even distance with each other the entire length of the screen.
+  	POSTCONDITION: The missiles are going at a constant rate.
+
+TEST CASE III.
+  	PRECONDITION: The game is running and there are no missiles on the screen.
+  	ACTION: Rapidly launch 5 missiles at a time 10 times with the right mouse button and the spacebar and measure that none of the missiles are going past each other and maintaining an even distance with each other the entire length of the screen.
+  	POSTCONDITION: The missiles are going at a constant rate.
+
+1f.
+	TEST CASE I.
+  	PRECONDITION: The game is running and there are no missiles on the screen.
+  	ACTION: Launch 5 missiles using the right mouse button.
+  	POSTCONDITION: The missiles all come from the bottom center of the screen.
+
+	TEST CASE II.
+	  PRECONDITION: The game is running and there are no missiles on the screen.
+    ACTION: Launch 5 missiles using the spacebar.
+    POSTCONDITION: The missiles all come from the bottom center of the screen.
+
+TEST CASE III.
+    PRECONDITION: The game is running and there are no missiles on the screen.
+    ACTION: Launch 5 missiles using the spacebar and the right mouse button.
+    POSTCONDITION: The missiles all come from the bottom center of the screen.
+
+1g. 
+	TEST CASE I.
+  	PRECONDITION: The game is running and there are no missiles on the screen.
+  	ACTION: Launch 5 missiles using the right mouse button.
+    POSTCONDITION: Every missile is in the same direction.
+
+TEST CASE II.
+    PRECONDITION: The game is running and there are no missiles on the screen.
+    ACTION: Launch 5 missiles using the spacebar.
+    POSTCONDITION: Every missile is in the same direction.
+
+TEST CASE III.
+    PRECONDITION: The game is running and there are no missiles on the screen.
+    ACTION: Launch 5 missiles using the right mouse button and the spacebar.
+    POSTCONDITION: Every missile is in the same direction.
+
+1h.
+	TEST CASE I.
+  	PRECONDITION: The game has started and there is a ship on the screen.
+  	ACTION: Fire 1 missile using the right mouse button that hits the ship.
+  	POSTCONDITION: 1 hit is detected.
+
+TEST CASE II.
+  	PRECONDITION: The game has started and there is a ship on the screen.
+  	ACTION: Fire 1 missile using the spacebar that hits the ship.
+  	POSTCONDITION: 1 hit is detected.
+
+	TEST CASE III.
+  	PRECONDITION: The game has started and there is a ship on the screen.
+  	ACTION: Fire five missiles using the right mouse button that will all hit the ship.
+  	POSTCONDITION: When the first missile	hits the ship,  1 hit is detected, and the other missiles continue their path and reach the end of the screen.
+
+TEST CASE IV.
+  	PRECONDITION: The game has started and there is a ship on the screen.
+  	ACTION: Fire five missiles using the spacebar that will all hit the ship.
+  	POSTCONDITION: When the first missile	hits the ship, 1 hit is detected, and the other missiles continue their path and reach the end of the screen.
+
+1i.
+	TEST CASE I.
+  	PRECONDITION: The game has started and there is a ship on the screen.
+  	ACTION: Fire 1 missile using the right mouse button that hits the ship.
+  	POSTCONDITION: The ship disappears and there is an explosion graphic.
+
+TEST CASE II.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire 1 missile using the spacebar that hits the ship.
+	POSTCONDITION: The ship disappears and there is an explosion graphic.
+
+	TEST CASE III.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire five missiles using the right mouse button that will all hit the ship.
+	POSTCONDITION: When the first missile	hits the ship, the ship disappears, and the other missiles continue their path and reach the end of the screen, and there is an explosion graphic.
+
+TEST CASE IV.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire five missiles using the spacebar that will all hit the ship.
+	POSTCONDITION: When the first missile	hits the ship, the ship disappears, and the other missiles continue their path and reach the end of the screen, and there is an explosion graphic.
+
+1j.
+	TEST CASE I.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire 1 missile using the right mouse button that hits the ship.
+	POSTCONDITION: The ship disappears.
+
+TEST CASE II.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire 1 missile using the spacebar that hits the ship.
+	POSTCONDITION: The ship disappears.
+
+	TEST CASE III.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire five missiles using the right mouse button that will all hit the ship.
+	POSTCONDITION: When the first missile	hits the ship, the ship disappears, and the other missiles continue their path and reach the end of the screen.
+
+TEST CASE IV.
+	PRECONDITION: The game has started and there is a ship on the screen.
+	ACTION: Fire five missiles using the spacebar that will all hit the ship.
+	POSTCONDITION: When the first missile	hits the ship, the ship disappears, and the other missiles continue their path and reach the end of the screen.	
+
+1k.
+	TEST CASE I.
+	PRECONDITION: The game has started and there is 1 ship on the screen.
+	ACTION: Fire 5 missiles using the right mouse button at the ship.
+	POSTCONDITION: Only 1 hit is counted in the counter because only 1 missile made contact with the ship before it disappeared.
+
+TEST CASE II.
+	PRECONDITION: The game has started and there is 1 ship on the screen.
+	ACTION: Fire 5 missiles using the spacebar at the ship.
+	POSTCONDITION: Only 1 hit is counted in the counter because only 1 missile made contact with the ship before it disappeared.
+
+2a.
+	TEST CASE I.
+	PRECONDITION: The game has just started and there are no ships on the screen.
+	ACTION: The system detects there are no ships on the screen.
+	POSTCONDITION: A ship launch is initiated.
+
+	TEST CASE II.
+	PRECONDITION: The game is running and there are ships on the screen.
+	ACTION: The system detects there are ships on the screen.
+	POSTCONDITION: No ships are launched.
+
+2b.
+	TEST CASE I.
+	PRECONDITION: 
+	ACTION:
+	POSTCONDITION:
+
+2c.
+	TEST CASE I.
+	PRECONDITION:
+	ACTION:
+	POSTCONDITION:
+
+2di.
+2dii.
+2diii.
+2diii1.
+2diii2.
+2diii3.
+2diii4.
+2e.
+
+3.
+	TEST CASE I.
+	PRECONDITION: The game is running.
+	ACTION: Reach 10 on the hit count.
+	POSTCONDITION: The game ends.
+
+	TEST CASE II.
+	PRECONDITION: The game is running.
+	ACTION: Reach anything below 10 on the hit count.
+	POSTCONDITION: The game does not end.
+
+4.
+	TEST CASE I.
+    PRECONDITION: The game is running.
+    ACTION: Press the left mouse button.
+    POSTCONDITION: The game ends.
+
+5.
+TEST CASE I.
+    PRECONDITION: The game is running.
+    ACTION: Press the esc button.
+    POSTCONDITION: The game ends.
+
+6.
+	TEST CASE I.
+	PRECONDITION: The game has just started.
+	ACTION: Do not launch any missiles or click any buttons at all.
+	POSTCONDITION: The game ends after five minutes.
+
+	TEST CASE II.
+	PRECONDITION: The game is running.
+	ACTION: Play the game normally for five minutes, but then stop pressing buttons.
+	POSTCONDITION: The game still ends after five minutes.
