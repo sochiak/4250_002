@@ -1,0 +1,262 @@
+Best_Table
+	Josh Rucevice
+	Jerry Galloway
+
+1
+	A
+		Use right mouse button
+			Missle launches
+				Missle is visible on screen
+		
+		Use everykey (excluding spacebar) besides right mouse button
+			Missle does not launch
+				No missle is visible on screen
+	B
+		Use spacebar
+			Missle launches
+				Missle is visible on screen
+				
+		Use everykey (excluding right mouse button) to ensure only spacebar launches
+			Missle launches
+				Missle is visible on screen
+	C
+		Game is running with no missles
+			Launch 5 missles
+				5 missles appear on screen
+		Game is running with no missles
+			Launch 6 missles
+				5 missles appear on screen
+				
+	D
+		Game has 5 missles on screen
+			Missle goes off screen Launch another
+				5 missles appear on screen
+		
+		Game has 5 missles on screen
+			Missle goes off screen Launch another
+				4 missles appear on screen
+		
+	E
+		Game is running with no missles
+			Launch missles at set intervals
+				Time missles takes to go off screen remanins the same
+				
+		Game is running with no missles
+			Launch missles at set intervals
+				Missles go off screen at different intervals
+	
+	F
+		Game is running with no missles
+			Missle is launched 
+				Missle appears at bottom center on the screen
+			
+		Game is running with no missles
+			Missles is launched
+				Missle appears anywhere but bottom center of screen
+		
+	G	
+		Game is running with no missles
+			Missle is launched
+				Missle path is vertical from start of launch
+				
+		Game is running wiht no missles
+			Missle is launched
+				Path of missle deviates from straight vertical path
+	
+	H
+		Game is running with no missle and one ship
+			Missle is launched
+				Missle collides with ship, missle is removed, and missle counts as not active
+		
+		Game is running with no missle and one ship
+			Missle is launched
+				Missle passes through ship, missle is not removed, missle counts as active
+		
+	I
+		Game is running with one ship and no missle
+			Missle is launched
+				Missle collides with ship and explosion effect is displayed at point of contact
+				
+		Game is running wiht one ship and no missle
+			Missle is launched
+				Missle collides with ship and no explosion effect is displayed at point of contact
+		
+	J
+		Game is running with 1 missle and 1 ship
+			Missle collides with ship
+				Both missle and ship are removed off screen
+				
+		Game is running with 1 missle and 1 ship
+			Missle collides with ship
+				Both missle and ship are not removed
+		
+	K
+		Game is running wiht 1 ship and 1 missle
+			Missle hits ship
+				Hit counter on screen increases
+		
+		Game is running with 1 ship and 1 missle
+			Missle hits ship
+				Hit counter on screen does not increase 
+
+2
+	A 
+		Game is running 
+			1 ship has to be on screen at all times
+				Number of ships stay at 1 until next ship spawns
+			
+		Game is running
+			No ships spawn	
+		
+	B 
+		Game is running
+			Change configuration
+				Different types of ships spawn
+
+		Game is running
+			Configuration does not apply settings
+				Ships do not spawn or only one type spawns
+		
+	C 
+		Game is running 
+			Multiple ships spawn
+				Different image types are supported
+			
+		Game is running
+			Multiple ships spawn
+				All ships display same image type
+		
+	D 
+		Game is running and spawns 1 ship at a 30% time rate
+				At least 1 ship is on screen at all time until next spawn
+					Ships continue to spawn at 30% rate
+		
+		Game is running and spawn rate is set to 0
+				Only one ship spawns until destroyed or off screen
+					New ship cannot spawn until ship is destroyed
+			
+		Game is running
+			Set spawn rate to 100
+				10 ships spawn at the same time instead of a rate
+			
+		i 
+			Game is running with 1 ship on screen
+				Ship spawns based on configuration rate
+				Each type of ship has an equal chance of spawning
+			
+				Game spawns only one type of ship
+		
+		ii 
+			Game is running with specified launch rate based on time
+				Only 10 ships can launch
+					10 ships registered on screen
+
+				Game is running with more than 10 ships on screen
+					Ships continue to spawn
+
+			Game does not remove ships from being active
+			
+			Game does not register ships being destroyed
+		
+		iii
+
+			1 
+				Game is running
+					Game spawns a ship
+						Ship spawns on left or right specified
+
+				Game is running
+					Game spawns a ship
+						Ship does not spawn on left or right		
+			2	
+				Game is running
+					Game spawns a ship
+						Ship spawns on either left or right of the top two-thirds of screen
+						
+				Game is running
+					Game spawns a ship
+						Ship does not spawn on either left or right side of top two-thirds of the screen
+				
+			3
+				Game is running
+					Game spawns one type of Ship
+						Ship has speed based on type
+						
+				Game is running 
+					Game spawns one type of ship
+						Ship has speed of another ship or all speeds the same
+				
+			4
+				Game is running
+					Ships is spawned on left side
+						Ship moves right
+						
+				Game is running
+					Ship is spawned on left side
+						Ship moves left
+				
+				Game is running
+					Ships is spawned on left side
+						Ship does not move
+
+				Game is running
+					Ships is spawned on right side
+						Ship moves left
+
+				Game is running
+					Ships is spawned on right side
+						Ship moves right
+
+				Game is running
+					Ships is spawned on right side
+						Ship does not move
+				
+
+	E
+		Game is runing with 1 ship
+			Ship moves off screen
+				Ship is no longer active
+		
+		Game is running with 1 ship
+			Ship moves off screen
+				Ship is still considered active
+
+3
+	Game is running with one ship, 1 missle, and 9 hits 
+		Missle hits ship, count increases to 10
+			Game ends
+	
+	Game is running with one ship, 1 missle, and 9 hits
+		Missle hits ship, count increases to 10
+			Game does not end
+
+4
+	Game is running
+		Clicks left mouse button
+			Game ends
+
+	Game is running
+		Use every other key (excluding escape key)
+			Game ends
+
+5
+	Game is running
+		Use escape key
+			Game ends
+
+	Game is running
+		Use every other key (excluding Left mouse button)
+			Game ends
+
+6
+	Game is running with no missle on screen
+		No missle is launched with a timer on for 5 minutes and 5 minutes pass
+			Game ends
+
+	Game is running with no missle on screen
+		No missle is launched with a timer on for 5 minutes and 5 minutes pass
+			Game does not end
+
+	Game is running with no missle on screen
+		No missle is launched with a timer on for 5 minutes and less than 5 minutes pass
+			Game ends
