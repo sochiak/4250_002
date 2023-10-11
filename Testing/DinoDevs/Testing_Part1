@@ -1,0 +1,17 @@
+Testing Part 1
+
+1.	The program is up and running with no active missiles. The user right clicks. An active missile is launched. (1a)
+2.	The program is up and running with no active missiles. The user clicks space bar. An active missile is launched. (1b)
+3.	The program is up and running with no active missiles. The user hits any button other than right click or space bar. An active missile is not launched (1a & 1b)
+4.	The program is up and running with no active missiles. The user right clicks 6 times. 5 active missiles are launched. (1c)
+5.	The program is up and running with 5 active missiles. The user right clicks or clicks space bar. No missiles are launched. (1c)
+6.	The program is up and running with 5 active missiles. A missile goes off the screen. The missile is considered inactive and the user can launch another missile. (1d) 
+7.	The program is up and running with 5 active missiles. A missile goes off the screen. The missile is considered inactive. The user attempts to launch 2 more missiles. Only one missile is launched (1d)
+8.	The program is up and running with between 0 and 3 missiles. The user launches two missiles. The two missiles should move at the same rate and vertically from launch position. (1e & 1g)
+9.	The program is up and running with no active missiles. The user launches one missile. The missile launches from the center bottom of the screen. (1f)
+10.	The program is up and running with less than 5 active missiles. The user launches a missile. The missile launches from the center bottom of the screen. (1f)
+11.	The program is up and running with active ships and 0 to 4 active missiles. The user launches a missile that collides with a ship. This is registered as a hit and the hit counter increases by one. (1h & 1k)
+12.	A missile hits a ship. An explosion animation is displayed at the location of impact. The hit counter goes up by one. (1i &1k)
+13.	A missile hits a ship. The ship and missile assets are removed from the screen. The ship and missile are considered inactive. (1j)
+14.	There are 5 active missiles. One missile hits a ship. The user is able to immediately launch another missile. (1j)
+15.	A user fires a missile. The missile misses a ship. The hit counter does not increase or decrease. (1k)

@@ -1,0 +1,171 @@
+2
+	a
+	
+	Test case description: Testing to see whether a 
+	ship will launch immediately upon there being 0
+	active ships on screen.
+	Test steps:
+		1) Configure rate to 0%.
+		2) Start game.
+		3) Observe game, noting whether there are ever
+		0 active ships on screen, and for how long.
+	Expected result: Ship should launch as soon as game
+	starts, and when there are ever 0 ships on screen 
+	(when the last active ship leaves screen).
+	Pre-requisites: Game must have configurable ship
+	generation rate. Alternately, tester must spend
+	longer observing game to note when last ship leaves
+	screen, to see if a new ship is launched immediately.
+	
+	b
+		
+	Test case description: Determining if the solution
+	supports multiple types of ships.
+	Test steps:
+		1) Start the game.
+		2) Observe if more than one type of ship launches
+		during gameplay.
+	Expected result: More than one type of ship should
+	launch (especially considering the equal chance below,
+	it should be quickly apparent).
+	Pre-requisites: A configurable value should be set
+	to allow multiple ship designs in the code.
+	
+	c
+	
+	Test case description: Determine whether each ship
+	generated has an image that matches its type.
+	Test steps:
+		1) Have list of ship types matched with their image.
+		2) Start game.
+		3) Observe ship launches, marking any ship types
+		launched that do not match the image assigned to them.
+	Expected result: All ships launched should have an image
+	that matches their type.
+	Pre-requisites: Have multiple ship types programmed. Each
+	ship type should have an image assigned to it to generate
+	with each ship launch.
+	
+	d
+	
+	Test case description: Test whether the launch rate of ships
+	will be varied randomly based on a configurable variable.
+	Test steps:
+		1) Start game. After the first ship launches, observe
+		ship launch rate, compare to launch window. Should
+		observe ships launching in roughly 1/3 of the available
+		windows.
+		2) Configure rate to 0%. Observe to ensure only one ship
+		is ever active at a time (minimum, per 2a).
+		3) Configure rate to 100%. Observe to ensure 10 ships
+		are active at all times (maximum, per 2dii). 
+	Expected result: Ships should launch at the expected rates
+	when compared to launch windows (if ships *CAN* launch each
+	frame while conforming to rules, default should be approximately
+	one ship launched per three frames, on average).
+	Pre-requisites: Launch rate must have a variable set in solution,
+	set to 30% initially. Launch rate must be configurable to attain
+	different launch rates.
+	
+		i
+		
+		Test case description: Test to see if ships are
+		being launched randomly with equal chance.
+		Test steps:
+			1) Launch game.
+			2) Observe ship launches for 10 minutes.
+			3) Count types of ship launched and the
+			order in which they are launched.
+			4) At the end of 10 minutes, compare the
+			amount of each type of ship and if they are
+			equal. Note whether there were streaks of any
+			particular type of ship launched (i.e. 5 of
+			one single ship type launched in a row, and
+			if that happened more than once).
+		Expected result: Should see roughly equal amounts
+		of each ship type, and few to no streaks of ship
+		types in launches.
+		Pre-requisites: Game is not active before start of
+		test. Randomizer is initiated in solution.
+
+		ii
+		
+		Test case description: Determine if there will
+		ever be more than 10 active ships on screen at
+		a time.
+		Test steps:
+			1) Configure ship launch rate to 100%.
+			2) Start game.
+			3) Observe game.
+		Expected result: From start of game, there should
+		always be 10 ships on screen, between ships leaving
+		and new ships generating.
+		Pre-requisites: Game must have configurable rate
+		to change. Alternately, tester must be ready to
+		wait and watch for much longer to achieve 10 active
+		ships. 
+		
+		iii
+			1
+	
+			Test case description: Test to see whether solution
+			is launching ships randomly from each side of the
+			screen.
+			Test steps:
+				1) Start game.
+				2) Observe ship launches for 10 minutes. Note
+				any patterns, streaks, or any observable non-
+				random behavior.
+				3) Analyze data to detect any non-random
+				patterns or behavior.
+			Expected result: Ships should show a roughly
+			random distribution between the left and right
+			sides of the screen. 
+			Pre-requisites: Must have the ability to launch
+			ships from each side of the screen, and a randomizer
+			providing a rough, even chance between the two. 
+			Observer should have materials to note launches.
+			
+			2
+			- Precondition: 
+			- Action: 
+			- Postcondition: 
+			
+			Test case description: 
+			Test steps:
+				1) 
+			Expected result:
+			Pre-requisites:
+	
+			3
+			- Precondition: 
+			- Action: 
+			- Postcondition: 
+			
+			Test case description: 
+			Test steps:
+				1) 
+			Expected result:
+			Pre-requisites:
+	
+			4
+			- Precondition: 
+			- Action: 
+			- Postcondition: 
+			
+			Test case description: 
+			Test steps:
+				1) 
+			Expected result:
+			Pre-requisites:
+				
+	e
+	- Precondition: 
+	- Action: 
+	- Postcondition: 
+	
+	Test case description: 
+	Test steps:
+		1) 
+	Expected result:
+	Pre-requisites:
